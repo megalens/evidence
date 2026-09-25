@@ -1,0 +1,46 @@
+n,severity,category,title,raised_by,raised_by_gpt_5_4_only
+1,critical,Security,Critical command injection via unsanitized repo_path in git -C commands,deepseek-v3.2 | grok-4.1-fast,no
+2,critical,Observation,No handling for force-pushes or ref rewrites,grok-4.1-fast,no
+3,critical,Observation,Missing egress filtering enforcement,deepseek-v3.2,no
+4,critical,Observation,Unsafe YAML deserialization risks RCE,grok-4.1-fast,no
+5,critical,Observation,State corruption on force-push due to SHA-based tracking,deepseek-v3.2 | grok-4.1-fast,no
+6,critical,Observation,Git subprocess execution lacks timeouts and output limits (resource exhaustion),deepseek-v3.2,no
+7,critical,(not categorised),Repository-controlled Git config can trigger arbitrary helper/program execution during git subprocesses,gpt-5.4,yes
+8,high,Security,"High-risk prompt injection from untrusted repo files (.pr-style.md, commits, diffs)",deepseek-v3.2 | grok-4.1-fast,no
+9,high,Observation,Race condition in state store update on concurrent events,deepseek-v3.2 | grok-4.1-fast,no
+10,high,Observation,Predictable PID lock file path vulnerable to symlink attack,grok-4.1-fast,no
+11,high,Security,Command injection via unsanitized branch/ref names in git commands,deepseek-v3.2 | grok-4.1-fast,no
+12,high,Security,LLM prompt injection via .pr-style.md/context.md,deepseek-v3.2,no
+13,high,Security,Plaintext GitHub token storage vulnerable to local compromise,grok-4.1-fast,no
+14,high,Observation,Symlink attack vulnerability in repo_path and state file paths,deepseek-v3.2,no
+15,high,Observation,SIGHUP reload mechanism is susceptible to config injection,deepseek-v3.2,no
+16,high,(not categorised),OAuth callback on fixed localhost port enables code interception by a local process,gpt-5.4,yes
+17,high,(not categorised),Remote fetch can use dangerous transport/protocol behaviors unless Git transport is restricted,gpt-5.4,yes
+18,medium,Security,Incomplete OAuth flow implementation - no local HTTP server for callback handling,deepseek-v3.2 | grok-4.1-fast,no
+19,medium,Security,GitHub token stored in plaintext file without memory protection or refresh logic,deepseek-v3.2 | grok-4.1-fast,no
+20,medium,Security,"Broad 'repo' OAuth scope required, no fine-grained permissions",grok-4.1-fast,no
+21,medium,Observation,Path traversal in state store via unsanitized repo_path,grok-4.1-fast,no
+22,medium,Observation,Potential SSRF via configurable LLM or GitHub API endpoints,deepseek-v3.2 | grok-4.1-fast,no
+23,medium,Observation,LLM API key exposure risk via env vars or config,grok-4.1-fast,no
+24,medium,Observation,Unbounded git diff output before truncation risks DoS,grok-4.1-fast,no
+25,medium,Observation,No YAML config deserialization security (arbitrary code exec),grok-4.1-fast,no
+26,medium,Observation,Watcher on packed-refs misses events without heartbeat tuning,grok-4.1-fast,no
+27,medium,Security,OAuth token memory leakage via core dumps/swap,deepseek-v3.2,no
+28,medium,Security,Path traversal via config.yaml repo paths,deepseek-v3.2,no
+29,medium,Observation,SSRF via misconfigured GitHub API host,deepseek-v3.2,no
+30,medium,Observation,No LLM output size limits for JSON parse bombs,deepseek-v3.2 | grok-4.1-fast,no
+31,medium,Observation,Token reuse across all repos (no scoping),deepseek-v3.2,no
+32,medium,Observation,No audit logging for security events,deepseek-v3.2 | grok-4.1-fast,no
+33,medium,Observation,Placeholder finding,gemini-3.1-pro,no
+34,medium,Security,Overly broad 'repo' OAuth scope violates least privilege,deepseek-v3.2 | grok-4.1-fast,no
+35,medium,Observation,Config reload lacks repo path re-validation,grok-4.1-fast,no
+36,medium,Observation,git fetch origin uses potentially untrusted remote,grok-4.1-fast,no
+37,medium,Security,No LLM API cost control or rate limiting leads to financial DoS risk,deepseek-v3.2,no
+38,medium,Observation,No dependency integrity or supply chain security measures specified,deepseek-v3.2,no
+39,medium,Observation,Insecure default example path suggests running as root,deepseek-v3.2,no
+40,medium,(not categorised),PR content can become a stored XSS/phishing vehicle in GitHub-rendered markdown,gpt-5.4,yes
+41,medium,(not categorised),No protection against duplicate drafts caused by TOCTOU between GitHub search/create and concurrent jobs,gpt-5.4,yes
+42,medium,(not categorised),Branch-to-remote identity is underspecified and can create PRs from the wrong fork or repository,gpt-5.4,yes
+43,medium,(not categorised),Local health/setup endpoint risk is not bounded; localhost services can be abused by browser-driven requests,gpt-5.4,yes
+44,low,Observation,Insufficient git repo validation allows symlink attacks,grok-4.1-fast,no
+45,low,Observation,SSRF risk from unallowlisted API endpoints,grok-4.1-fast,no

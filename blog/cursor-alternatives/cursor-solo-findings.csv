@@ -1,0 +1,24 @@
+n,severity,category
+1,critical,Command Injection
+2,critical,Prompt Injection
+3,critical,Token Exfiltration
+4,high,Path Traversal
+5,high,TOCTOU / Race Condition
+6,high,OAuth CSRF
+7,high,Token Storage / Scope
+8,high,SSRF via Config
+9,high,State Symlink Attack
+10,high,Supply Chain / Exec
+11,medium,LLM Output Injection
+12,medium,Sensitive File Leak
+13,medium,Race Condition
+14,medium,Log Injection
+15,medium,systemd Env Exposure
+16,medium,Denial of Service
+17,medium,Incomplete Egress
+18,medium,Config Permissions
+19,low,PID File TOCTOU
+20,low,OAuth Loopback Binding
+21,low,Shallow-Clone State Bug
+22,low,Branch Name as Filename
+23,low,Rate Limit Bypass

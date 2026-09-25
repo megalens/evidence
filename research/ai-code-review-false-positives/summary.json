@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-22",
+  "window_utc": "19:53 to 20:11",
+  "apps": 30,
+  "runs_finished": 28,
+  "runs_stopped_part_way": 2,
+  "findings_total": 160,
+  "findings_per_finished_run_median": 5.0,
+  "findings_per_finished_run_min": 2,
+  "models_per_finished_run": {
+    "4": 24,
+    "3": 4
+  },
+  "batch_model_fees_usd": 5.67,
+  "sample": {
+    "drawn": 20,
+    "agreed": 16,
+    "agreed_real": 9,
+    "agreed_not_real": 7,
+    "unresolved": 4,
+    "false_positive_rate_on_agreed": "7 of 16",
+    "labelled_critical": 9,
+    "raised_by_several_models_real": "5 of 10",
+    "raised_by_one_model_real": "4 of 5"
+  },
+  "update_2026_09_23": {
+    "real_findings_severity_within_checkers_range_before": "2 of 9",
+    "real_findings_severity_within_checkers_range_after": "7 of 9",
+    "labelled_critical_after": 2,
+    "verified_label_precision_before": "10/14",
+    "verified_label_precision_after": "10/11"
+  }
+}

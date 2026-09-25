@@ -1,0 +1,31 @@
+run_id,started_utc,outcome,findings,models_that_answered
+aa4ebebc-8375-4905-99b5-5d3faf4db4ed,2026-09-22T19:53:35Z,finished,2,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+7176a4b6-b31d-4a3b-bf41-ec9576a46513,2026-09-22T19:53:37Z,finished,8,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+c943f62e-de60-4b66-a4f7-f2f49613f032,2026-09-22T19:53:39Z,stopped part-way,0,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+a1534088-209d-409b-ba58-b49d1630985f,2026-09-22T19:54:56Z,finished,5,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+7cfe6b5f-5b29-419c-a95c-ab7621af6153,2026-09-22T19:55:14Z,finished,11,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+ef5dad18-f597-4172-a164-0c3c41ba0e28,2026-09-22T19:56:22Z,finished,8,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+e363d524-7a80-4781-a1b6-7ff504a94bfe,2026-09-22T19:56:45Z,finished,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+b1a2e4c7-368d-490a-b83b-81eb2c37bbd6,2026-09-22T19:57:02Z,finished,3,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+03ccabfe-9356-4fc7-bb38-853f20f7e1ca,2026-09-22T19:57:37Z,finished,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+4a13ead5-396a-492e-bf72-04aa62c8fe77,2026-09-22T19:57:51Z,finished,5,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+c817e1fe-ac05-4d12-abd8-4e7721522a46,2026-09-22T19:58:53Z,finished,8,devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+52a57d34-f0e3-43ed-8479-993be29fba1c,2026-09-22T19:58:58Z,finished,5,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+002dcb71-bf8e-46ed-a9e9-e4fe490edf1a,2026-09-22T19:59:40Z,finished,8,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+f3fbdbd2-8148-4dab-a041-1b053d89a555,2026-09-22T20:00:27Z,finished,8,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+22f54336-150b-4e1b-a985-db91f24c74a4,2026-09-22T20:01:32Z,finished,8,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+92d3a792-0c6a-421a-8a56-ae9d05ff3b32,2026-09-22T20:01:37Z,finished,7,devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+2ecf114b-ad88-4aa9-a15e-95010ddb1284,2026-09-22T20:01:54Z,finished,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+36a50f06-375b-4684-9ccb-23a7900d2cf7,2026-09-22T20:03:09Z,stopped part-way,0,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+64b6ea8b-ad80-4fc9-a507-8e5847581964,2026-09-22T20:03:10Z,finished,5,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+c4503d13-ab02-49b1-ab90-b8af6d9859e8,2026-09-22T20:03:46Z,finished,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+92823b09-fcab-45d4-8a89-723c4c04aab2,2026-09-22T20:04:18Z,finished,8,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+5d9f0e3c-d6d8-44d0-87e6-bed95403a7f9,2026-09-22T20:05:44Z,finished,2,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+cd3595e7-9a8c-4917-b485-4df3c82733ca,2026-09-22T20:05:46Z,finished,10,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+bcd49987-3d0b-4183-a0fd-01816fdf18c4,2026-09-22T20:06:06Z,finished,2,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+0d95746b-ba11-42c0-ba70-ab2daae37206,2026-09-22T20:07:15Z,finished,4,deepseek-v3.2 | devstral-2512 | gpt-4.1-mini
+4e91121b-3283-40b8-ac2f-b0f29360c884,2026-09-22T20:07:32Z,finished,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+5be6bbf1-b8e8-4acb-80f1-8109db774993,2026-09-22T20:07:52Z,finished,10,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+30d1bf1a-4302-40d3-a2c0-6cb4e6d515ce,2026-09-22T20:09:03Z,finished,2,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+bc5f2487-c1b7-4102-91ca-634177194849,2026-09-22T20:09:08Z,finished,6,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini
+724a28ce-d0c5-4300-9e25-92892a64f5b5,2026-09-22T20:09:58Z,finished,5,deepseek-v3.2 | devstral-2512 | gpt-4.1-mini

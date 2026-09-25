@@ -1,0 +1,21 @@
+id,recheck_outcome,labelled_verified_before,labelled_verified_after,severity_label_before,severity_label_after,checker_severity_range
+F01,unresolved,yes,no,critical,medium,none to low
+F02,real,yes,yes,critical,medium,none to medium
+F03,not real,yes,no,critical,low,none to none
+F04,real,yes,yes,critical,critical,none to low
+F05,real,yes,yes,high,medium,medium to high
+F06,unresolved,yes,yes,high,medium,none to low
+F07,real,yes,yes,medium,low,low to low
+F08,not real,yes,yes,medium,low,none to none
+F09,not real,yes,no,high,low,none to none
+F10,unresolved,no,no,critical,low,none to low
+F11,unresolved,yes,yes,critical,critical,none to medium
+F12,real,yes,yes,critical,high,high to high
+F13,real,yes,yes,high,medium,medium to medium
+F14,not real,no,no,high,low,none to none
+F15,not real,yes,no,high,medium,none to none
+F16,real,yes,yes,critical,high,high to high
+F17,real,yes,yes,critical,high,medium to medium
+F18,not real,no,no,high,low,none to none
+F19,not real,no,no,medium,low,none to none
+F20,real,yes,yes,medium,medium,low to medium

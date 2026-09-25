@@ -1,0 +1,4 @@
+lineup,known_bugs_found_of_10,found_in_each_of_3_repetitions,runs_completed_of_33,median_review_seconds
+starting lineup with two models replaced by their successors,8,9 / 9 / 7,32,110.6
+"starting lineup, one model swapped for deepseek-v4.1-flash",5,4 / 7 / 7,31,120.6
+"starting lineup, one model swapped for muse-spark-1.2",9,9 / 7 / 8,32,121.8

@@ -1,0 +1,12 @@
+lineup,known_bugs_found_of_10,found_in_each_of_3_repetitions,runs_completed_of_33,median_review_seconds
+starting lineup,9,7 / 9 / 7,30,90.8
+"starting lineup, one model swapped for gpt-5.4-nano (test A)",7,5 / 5 / 7,29,90.4
+"starting lineup, one model swapped for grok-4.3",6,6 / 5 / 6,30,91.1
+"starting lineup, one model swapped for mistral-medium-3.1",6,5 / 6 / 7,30,97.5
+"starting lineup, one model swapped for glm-5.3-flash",8,7 / 8 / 8,30,135.0
+"starting lineup, one model swapped for minimax-m3",7,8 / 6 / 7,28,108.2
+"starting lineup, one model swapped for gemini-3.5-flash-lite",4,5 / 5 / 6,32,82.0
+"starting lineup, one model swapped for grok-4.6",4,4 / 4 / 5,21,173.2
+"starting lineup, one model swapped for muse-spark-1.2",7,5 / 8 / 6,27,106.4
+"starting lineup, one model swapped for grok-build-0.1",7,6 / 8 / 6,30,188.6
+"starting lineup, one model swapped for gpt-5.4-nano (test B)",6,5 / 7 / 5,33,104.7
