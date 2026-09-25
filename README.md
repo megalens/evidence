@@ -3,6 +3,10 @@
 The records behind the numbers in MegaLens research and case studies, so you can check them
 instead of taking our word for it.
 
+> **What this repository does not contain.** It publishes results only. How MegaLens runs a
+> review (which model does which job, in what order, with what settings and instructions) is our
+> own work and is deliberately left out. Nothing left out is needed to check a number on our pages.
+
 | Folder | Page |
 |---|---|
 | `research/ai-code-review-false-positives/` | https://megalens.ai/research/ai-code-review-false-positives |
