@@ -12,6 +12,7 @@ instead of taking our word for it.
 | `research/ai-code-review-false-positives/` | https://megalens.ai/research/ai-code-review-false-positives |
 | `research/llm-latency-timeouts-code-review/` | https://megalens.ai/research/llm-latency-timeouts-code-review |
 | `blog/cursor-alternatives/` | https://megalens.ai/blog/cursor-alternatives |
+| `blog/ai-code-review-tools/` | https://megalens.ai/ai-code-review-tools |
 
 Each folder has a README that maps every number on its page to the file it comes from.
 
