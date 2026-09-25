@@ -22,7 +22,13 @@ anyone we give them to, such as an independent auditor, can check this cut again
 **How to read the difference.** +22 and +4 are differences in counts. The two lists were not matched
 one to one, so some of the 45 may restate something Cursor also raised in other words.
 
-**What is not here.** The original output labels each piece of evidence with the name of an internal
+## What is not here, and why
+
+- **How MegaLens runs a review.** Which model does which job, in what order, with what settings and
+  instructions is our own work and is deliberately left out. These files show what came out of each
+  run, not how it was produced, and nothing left out is needed to check a number on the page.
+
+**Also left out.** The original output labels each piece of evidence with the name of an internal
 reviewing role, and records which models missed each finding. Those labels describe how the review
 works inside, so this cut keeps only what came out: severity, category, title, and the models that
 raised each finding, sorted A to Z. One category, which only ever labelled a single model's own

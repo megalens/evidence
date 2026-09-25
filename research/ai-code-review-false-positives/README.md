@@ -27,8 +27,9 @@ records, not written by hand (`summary.json` is the generator's own output).
 
 - **The apps' names, their code and the findings' text.** They are public projects whose owners did
   not ask to be reviewed. The findings are identified only as F01 to F20.
-- **How the review works inside.** These files show what came out of each run, not how it was
-  produced.
+- **How MegaLens runs a review.** Which model does which job, in what order, with what settings and
+  instructions is our own work and is deliberately left out. These files show what came out of each
+  run, not how it was produced, and nothing left out is needed to check a number on the page.
 
 `private-records.sha256` fingerprints the full internal records these files were cut from. Anyone we
 give those records to, such as an independent auditor, can confirm they have not changed since this

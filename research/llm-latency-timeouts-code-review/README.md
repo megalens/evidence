@@ -22,6 +22,9 @@ A bug counted as found when at least 2 of the 3 repetitions found it.
 
 ## What is not here, and why
 
+- **How MegaLens runs a review.** Which model does which job, in what order, with what settings and
+  instructions is our own work and is deliberately left out. These files show what came out of each
+  run, not how it was produced, and nothing left out is needed to check a number on the page.
 - **The codebases' names and code.** They are public projects whose owners did not ask to be
   reviewed; their names appear in every record's file name. `private-records.sha256` fingerprints
   all 711 records, so an independent auditor we give them to can confirm nothing has changed.
