@@ -11,7 +11,7 @@ anyone we give them to, such as an independent auditor, can check this cut again
 |---|---|---|
 | Cursor's own review | 23 findings, 3 critical | `cursor-solo-findings.csv` |
 | MegaLens review | 45 findings, 7 critical | `megalens-findings.csv` |
-| Difference | +22 findings, +4 critical | 45 minus 23, and 7 minus 3 |
+| Difference | 22 more findings (45 vs 23); critical findings went from 3 to 7 | the two counts above |
 | Found by GPT 5.4 alone, missed by the other three models | 7 of 45 | `megalens-findings.csv`, column `raised_by_gpt_5_4_only` |
 | Git config can run arbitrary code (critical) | finding 7 | `megalens-findings.csv` |
 | YAML config can execute code (critical) | finding 4 | `megalens-findings.csv` |
@@ -19,7 +19,7 @@ anyone we give them to, such as an independent auditor, can check this cut again
 | Time | 7 min (418 s) | original output, `Total time` |
 | Provider cost on our own key | $0.22 | original output, `Total cost` |
 
-**How to read the difference.** +22 and +4 are differences in counts. The two lists were not matched
+**How to read the difference.** These compare totals only. The two lists were not matched
 one to one, so some of the 45 may restate something Cursor also raised in other words.
 
 ## What is not here, and why
