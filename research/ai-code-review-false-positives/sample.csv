@@ -1,21 +1,21 @@
-id,group,label_on_the_finding,models_that_raised_it,checker_a_claude_anthropic,checker_b_gpt_openai,outcome
-F01,builder-generated,critical,3,overstated (low),cannot tell,unresolved
-F02,builder-generated,critical,2,overstated (high),overstated (none),agree: real
-F03,builder-generated,critical,2,false positive,false positive,agree: not real
-F04,builder-generated,critical,1,overstated (low),overstated (none),agree: real
-F05,builder-generated,high,2,confirmed (high),overstated (low),agree: real
-F06,builder-generated,high,2,overstated (low),cannot tell,unresolved
-F07,builder-generated,medium,1,confirmed (medium),overstated (low),agree: real
-F08,builder-generated,medium,2,false positive,false positive,agree: not real
-F09,builder-generated,high,2,false positive,false positive,agree: not real
-F10,AI-assisted,critical,2,overstated (low),false positive,unresolved
-F11,AI-assisted,critical,2,overstated (medium),false positive,unresolved
-F12,AI-assisted,critical,4,confirmed (critical),overstated (high),agree: real
-F13,AI-assisted,high,1,confirmed (high),overstated (medium),agree: real
-F14,AI-assisted,high,1,false positive,false positive,agree: not real
-F15,AI-assisted,high,2,false positive,false positive,agree: not real
-F16,April sample,critical,4,confirmed (critical),overstated (high),agree: real
-F17,April sample,critical,1,confirmed (critical),overstated (medium),agree: real
-F18,April sample,high,2,false positive,false positive,agree: not real
-F19,April sample,medium,0,false positive,false positive,agree: not real
-F20,April sample,medium,2,confirmed (medium),confirmed (medium),agree: real
+id,group,label_on_the_finding,models_that_raised_it,raised_by,checker_a_claude_anthropic,checker_b_gpt_openai,outcome
+F01,builder-generated,critical,3,devstral-2512 | gemini-2.5-flash | gpt-4.1-mini,overstated (low),cannot tell,unresolved
+F02,builder-generated,critical,2,devstral-2512 | gemini-2.5-flash,overstated (high),overstated (none),agree: real
+F03,builder-generated,critical,2,deepseek-v3.2 | gpt-4.1-mini,false positive,false positive,agree: not real
+F04,builder-generated,critical,1,deepseek-v3.2,overstated (low),overstated (none),agree: real
+F05,builder-generated,high,2,devstral-2512 | gemini-2.5-flash,confirmed (high),overstated (low),agree: real
+F06,builder-generated,high,2,gemini-2.5-flash | gpt-4.1-mini,overstated (low),cannot tell,unresolved
+F07,builder-generated,medium,1,devstral-2512,confirmed (medium),overstated (low),agree: real
+F08,builder-generated,medium,2,devstral-2512 | gemini-2.5-flash,false positive,false positive,agree: not real
+F09,builder-generated,high,2,gemini-2.5-flash | gpt-4.1-mini,false positive,false positive,agree: not real
+F10,AI-assisted,critical,2,gemini-2.5-flash | gpt-4.1-mini,overstated (low),false positive,unresolved
+F11,AI-assisted,critical,2,deepseek-v3.2 | gpt-4.1-mini,overstated (medium),false positive,unresolved
+F12,AI-assisted,critical,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini,confirmed (critical),overstated (high),agree: real
+F13,AI-assisted,high,1,gpt-4.1-mini,confirmed (high),overstated (medium),agree: real
+F14,AI-assisted,high,1,devstral-2512,false positive,false positive,agree: not real
+F15,AI-assisted,high,2,deepseek-v3.2 | devstral-2512,false positive,false positive,agree: not real
+F16,April sample,critical,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini,confirmed (critical),overstated (high),agree: real
+F17,April sample,critical,1,gemini-2.5-flash,confirmed (critical),overstated (medium),agree: real
+F18,April sample,high,2,devstral-2512 | gpt-4.1-mini,false positive,false positive,agree: not real
+F19,April sample,medium,0,,false positive,false positive,agree: not real
+F20,April sample,medium,2,devstral-2512 | gemini-2.5-flash,confirmed (medium),confirmed (medium),agree: real
