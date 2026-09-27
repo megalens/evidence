@@ -20,9 +20,17 @@ records, not written by hand (`summary.json` is the generator's own output).
 | Raised by several models, real | 5 of 10 | `sample.csv`, column `models_that_raised_it` |
 | Raised by one model, real | 4 of 5 | `sample.csv` |
 | Which model raised each finding | named per finding | `sample.csv`, column `raised_by` (sorted A to Z; F19 has no recorded model) |
+| Why each finding was judged as it was | one line per finding | `sample.csv`, column `checker_b_reason` (see the note below) |
 | Update: "verified" label precision | 10 of 14 (71%) before, 10 of 11 (91%) after | `summary.json`, `update_2026_09_23` |
 | Update: labelled critical | 9 before, 2 after | `update-2026-09-23.csv` |
 | Update: real findings with a severity inside both checkers' range | 2 of 9 before, 7 of 9 after | `update-2026-09-23.csv`, `checker_severity_range` |
+
+**About `checker_b_reason`.** Each line is the second checker's reading of that finding (GPT, OpenAI),
+shortened and generalised by hand from its notes. It is one AI checker's reading, not ground truth,
+and nobody re-checked it by hand. The first checker recorded verdicts only, without reasons. Where the
+two checkers disagreed (F01, F06, F10, F11), the outcome stays unresolved, and the line only says what
+checker B thought. Details that could identify the projects, such as what an app does, names in its code,
+or how an issue could be used, are left out on purpose.
 
 ## What is not here, and why
 

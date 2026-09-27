@@ -1,21 +1,21 @@
-id,group,label_on_the_finding,models_that_raised_it,raised_by,checker_a_claude_anthropic,checker_b_gpt_openai,outcome
-F01,builder-generated,critical,3,devstral-2512 | gemini-2.5-flash | gpt-4.1-mini,overstated (low),cannot tell,unresolved
-F02,builder-generated,critical,2,devstral-2512 | gemini-2.5-flash,overstated (high),overstated (none),agree: real
-F03,builder-generated,critical,2,deepseek-v3.2 | gpt-4.1-mini,false positive,false positive,agree: not real
-F04,builder-generated,critical,1,deepseek-v3.2,overstated (low),overstated (none),agree: real
-F05,builder-generated,high,2,devstral-2512 | gemini-2.5-flash,confirmed (high),overstated (low),agree: real
-F06,builder-generated,high,2,gemini-2.5-flash | gpt-4.1-mini,overstated (low),cannot tell,unresolved
-F07,builder-generated,medium,1,devstral-2512,confirmed (medium),overstated (low),agree: real
-F08,builder-generated,medium,2,devstral-2512 | gemini-2.5-flash,false positive,false positive,agree: not real
-F09,builder-generated,high,2,gemini-2.5-flash | gpt-4.1-mini,false positive,false positive,agree: not real
-F10,AI-assisted,critical,2,gemini-2.5-flash | gpt-4.1-mini,overstated (low),false positive,unresolved
-F11,AI-assisted,critical,2,deepseek-v3.2 | gpt-4.1-mini,overstated (medium),false positive,unresolved
-F12,AI-assisted,critical,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini,confirmed (critical),overstated (high),agree: real
-F13,AI-assisted,high,1,gpt-4.1-mini,confirmed (high),overstated (medium),agree: real
-F14,AI-assisted,high,1,devstral-2512,false positive,false positive,agree: not real
-F15,AI-assisted,high,2,deepseek-v3.2 | devstral-2512,false positive,false positive,agree: not real
-F16,April sample,critical,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini,confirmed (critical),overstated (high),agree: real
-F17,April sample,critical,1,gemini-2.5-flash,confirmed (critical),overstated (medium),agree: real
-F18,April sample,high,2,devstral-2512 | gpt-4.1-mini,false positive,false positive,agree: not real
-F19,April sample,medium,0,,false positive,false positive,agree: not real
-F20,April sample,medium,2,devstral-2512 | gemini-2.5-flash,confirmed (medium),confirmed (medium),agree: real
+id,group,label_on_the_finding,models_that_raised_it,raised_by,checker_a_claude_anthropic,checker_b_gpt_openai,outcome,checker_b_reason
+F01,builder-generated,critical,3,devstral-2512 | gemini-2.5-flash | gpt-4.1-mini,overstated (low),cannot tell,unresolved,"Cannot tell: depends on how an external script is set up, which is not in the code"
+F02,builder-generated,critical,2,devstral-2512 | gemini-2.5-flash,overstated (high),overstated (none),agree: real,"Real but overstated: the code has no callers, so the path cannot be reached"
+F03,builder-generated,critical,2,deepseek-v3.2 | gpt-4.1-mini,false positive,false positive,agree: not real,"Not real: only type definitions; the app keeps data in the browser, there are no server records"
+F04,builder-generated,critical,1,deepseek-v3.2,overstated (low),overstated (none),agree: real,"Real but overstated: the helper is unused, and the real setup code hashes the password"
+F05,builder-generated,high,2,devstral-2512 | gemini-2.5-flash,confirmed (high),overstated (low),agree: real,Real but overstated: a replayed request changes a date but does not lift usage limits
+F06,builder-generated,high,2,gemini-2.5-flash | gpt-4.1-mini,overstated (low),cannot tell,unresolved,"Cannot tell: depends on an external sheet's sharing settings, which are not in the code"
+F07,builder-generated,medium,1,devstral-2512,confirmed (medium),overstated (low),agree: real,"Real but overstated: old records are deleted, so only today's data is exposed"
+F08,builder-generated,medium,2,devstral-2512 | gemini-2.5-flash,false positive,false positive,agree: not real,"Not real: an analytics visitor ID, not a login session"
+F09,builder-generated,high,2,gemini-2.5-flash | gpt-4.1-mini,false positive,false positive,agree: not real,Not real: React escapes these fields; no raw HTML is inserted
+F10,AI-assisted,critical,2,gemini-2.5-flash | gpt-4.1-mini,overstated (low),false positive,unresolved,"Not real (checker B): the random ID is an access key by design, and no leak is shown"
+F11,AI-assisted,critical,2,deepseek-v3.2 | gpt-4.1-mini,overstated (medium),false positive,unresolved,Not real (checker B): the strict mode refuses the fallback; the fallback is intended in automatic mode
+F12,AI-assisted,critical,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini,confirmed (critical),overstated (high),agree: real,Real but overstated: tokens can be forged only when a secret setting is missing
+F13,AI-assisted,high,1,gpt-4.1-mini,confirmed (high),overstated (medium),agree: real,"Real but overstated: no login rate limit, but passwords are still checked"
+F14,AI-assisted,high,1,devstral-2512,false positive,false positive,agree: not real,"Not real: the database already limits the value, and only a trusted role can call the function"
+F15,AI-assisted,high,2,deepseek-v3.2 | devstral-2512,false positive,false positive,agree: not real,Not real: the helper the endpoint calls already does the cross site check
+F16,April sample,critical,4,deepseek-v3.2 | devstral-2512 | gemini-2.5-flash | gpt-4.1-mini,confirmed (critical),overstated (high),agree: real,"Real but overstated: forged events can create paid records, but not move real money"
+F17,April sample,critical,1,gemini-2.5-flash,confirmed (critical),overstated (medium),agree: real,"Real but overstated: a role check is missing, but new accounts get a fixed low role"
+F18,April sample,high,2,devstral-2512 | gpt-4.1-mini,false positive,false positive,agree: not real,"Not real: the redirect uses the page's own address, which an attacker cannot set"
+F19,April sample,medium,0,,false positive,false positive,agree: not real,Not real: an admin only endpoint; admins seeing revenue is intended
+F20,April sample,medium,2,devstral-2512 | gemini-2.5-flash,confirmed (medium),confirmed (medium),agree: real,"Real: a live one time code is printed to the logs, and verification accepts it"
