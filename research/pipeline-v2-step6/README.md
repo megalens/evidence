@@ -53,3 +53,14 @@ All runs share one internal account. The live service's per-account runaway-loop
 - Reviewer decisions produced before A9 (route 1 run 1 and the CodeRabbit side) are superseded, archived unopened and published as such. All five arms are assessed fresh after every run is complete.
 - Results are also shown under the original protocol (quota refusals counted as failed attempts), so the effect of A9 is visible.
 - Nothing is opened until every run is complete and assessed. A status note without results follows at 05:00 UTC on 18 Nov.
+
+## Results (18 Nov 2026, after every run was complete and every arm assessed)
+
+Full report: [RESULTS.md](RESULTS.md), sha256 `c5cbc1a6169b08f9351f14ddbf038f6dabfa475b37545410697fbcc5afc5d1da`. Data, with PRs identified only by hashes: [results/](results/).
+
+In short:
+- Under the governing rules (A8 with A9), MegaLens caught more of the catchable bugs than CodeRabbit on the PRs both tools reviewed, in every run. Per run it caught 15 to 23 of 31 to 33 bugs; CodeRabbit caught 5. The exact paired test gave p = 0.021 or lower.
+- The sample is small, and on one run the 95% intervals overlap slightly.
+- Under the original protocol (quota refusals counted as failed attempts), only route 2 shows a significant difference.
+- The service's per-account call limit (A9.4) was raised from 17 Nov 18:44:30 to 23:10:47 UTC. The defaults were restored right after the last run.
+- RESULTS.md section 9 corrects an undercount in A9.1. The correction changes no result.

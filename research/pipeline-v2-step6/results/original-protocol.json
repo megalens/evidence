@@ -1,0 +1,926 @@
+{
+ "M1-r1": {
+  "completion_100": 61,
+  "all_bugs": {
+   "k": 21,
+   "n": 100,
+   "rate": 0.21,
+   "wilson95": [
+    0.14165549531645788,
+    0.2998014930196232
+   ],
+   "text": "21/100 (14% to 30%)",
+   "pending": 0
+  },
+  "catchable_bugs": {
+   "k": 18,
+   "n": 77,
+   "rate": 0.23376623376623376,
+   "wilson95": [
+    0.1532949838383708,
+    0.33954038804937015
+   ],
+   "text": "18/77 (15% to 34%)",
+   "pending": 0
+  },
+  "M_orig": 25,
+  "h2h_M_catchable": {
+   "n": 20,
+   "both": 1,
+   "only_ml": 6,
+   "only_cr": 3,
+   "neither": 10,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.5078125,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 7,
+    "n": 20,
+    "rate": 0.35,
+    "wilson95": [
+     0.18118954786794464,
+     0.5671494897805354
+    ],
+    "text": "7/20 (18% to 57%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 4,
+    "n": 20,
+    "rate": 0.2,
+    "wilson95": [
+     0.0806563532712,
+     0.41602172202575993
+    ],
+    "text": "4/20 (8.1% to 42%)",
+    "pending": 0
+   }
+  },
+  "h2h_M_all": {
+   "n": 25,
+   "both": 2,
+   "only_ml": 6,
+   "only_cr": 4,
+   "neither": 13,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.75390625,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 8,
+    "n": 25,
+    "rate": 0.32,
+    "wilson95": [
+     0.17204987516891143,
+     0.5159008626542329
+    ],
+    "text": "8/25 (17% to 52%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 6,
+    "n": 25,
+    "rate": 0.24,
+    "wilson95": [
+     0.11496157730326725,
+     0.43430059955238565
+    ],
+    "text": "6/25 (11% to 43%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_catchable": {
+   "n": 33,
+   "both": 1,
+   "only_ml": 6,
+   "only_cr": 4,
+   "neither": 22,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.75390625,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 7,
+    "n": 33,
+    "rate": 0.21212121212121213,
+    "wilson95": [
+     0.1067588656643618,
+     0.3775197758712936
+    ],
+    "text": "7/33 (11% to 38%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 5,
+    "n": 33,
+    "rate": 0.15151515151515152,
+    "wilson95": [
+     0.06650359257960956,
+     0.30920213138460484
+    ],
+    "text": "5/33 (6.7% to 31%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_all": {
+   "n": 43,
+   "both": 2,
+   "only_ml": 6,
+   "only_cr": 5,
+   "neither": 30,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 1.0,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 8,
+    "n": 43,
+    "rate": 0.18604651162790697,
+    "wilson95": [
+     0.0974163558010598,
+     0.3261729323530596
+    ],
+    "text": "8/43 (9.7% to 33%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 7,
+    "n": 43,
+    "rate": 0.16279069767441862,
+    "wilson95": [
+     0.08116524502857546,
+     0.2997269533591824
+    ],
+    "text": "7/43 (8.1% to 30%)",
+    "pending": 0
+   }
+  }
+ },
+ "M1-r2": {
+  "completion_100": 25,
+  "all_bugs": {
+   "k": 11,
+   "n": 100,
+   "rate": 0.11,
+   "wilson95": [
+    0.06254131955225126,
+    0.18631463027903022
+   ],
+   "text": "11/100 (6.3% to 19%)",
+   "pending": 0
+  },
+  "catchable_bugs": {
+   "k": 9,
+   "n": 77,
+   "rate": 0.11688311688311688,
+   "wilson95": [
+    0.06272491064586315,
+    0.2074528196316177
+   ],
+   "text": "9/77 (6.3% to 21%)",
+   "pending": 0
+  },
+  "M_orig": 10,
+  "h2h_M_catchable": {
+   "n": 8,
+   "both": 1,
+   "only_ml": 4,
+   "only_cr": 0,
+   "neither": 3,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.125,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 5,
+    "n": 8,
+    "rate": 0.625,
+    "wilson95": [
+     0.30573785458380187,
+     0.863158240538479
+    ],
+    "text": "5/8 (31% to 86%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 1,
+    "n": 8,
+    "rate": 0.125,
+    "wilson95": [
+     0.02241690886329617,
+     0.4708948057698615
+    ],
+    "text": "1/8 (2.2% to 47%)",
+    "pending": 0
+   }
+  },
+  "h2h_M_all": {
+   "n": 10,
+   "both": 1,
+   "only_ml": 5,
+   "only_cr": 0,
+   "neither": 4,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.0625,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 6,
+    "n": 10,
+    "rate": 0.6,
+    "wilson95": [
+     0.3126695474501864,
+     0.8318224187964902
+    ],
+    "text": "6/10 (31% to 83%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 1,
+    "n": 10,
+    "rate": 0.1,
+    "wilson95": [
+     0.01787574951572113,
+     0.4041563854975721
+    ],
+    "text": "1/10 (1.8% to 40%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_catchable": {
+   "n": 33,
+   "both": 1,
+   "only_ml": 4,
+   "only_cr": 4,
+   "neither": 24,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 1.0,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 5,
+    "n": 33,
+    "rate": 0.15151515151515152,
+    "wilson95": [
+     0.06650359257960956,
+     0.30920213138460484
+    ],
+    "text": "5/33 (6.7% to 31%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 5,
+    "n": 33,
+    "rate": 0.15151515151515152,
+    "wilson95": [
+     0.06650359257960956,
+     0.30920213138460484
+    ],
+    "text": "5/33 (6.7% to 31%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_all": {
+   "n": 43,
+   "both": 1,
+   "only_ml": 5,
+   "only_cr": 6,
+   "neither": 31,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 1.0,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 6,
+    "n": 43,
+    "rate": 0.13953488372093023,
+    "wilson95": [
+     0.06555634267713947,
+     0.27263876594425684
+    ],
+    "text": "6/43 (6.6% to 27%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 7,
+    "n": 43,
+    "rate": 0.16279069767441862,
+    "wilson95": [
+     0.08116524502857546,
+     0.2997269533591824
+    ],
+    "text": "7/43 (8.1% to 30%)",
+    "pending": 0
+   }
+  }
+ },
+ "M2-r1": {
+  "completion_100": 75,
+  "all_bugs": {
+   "k": 33,
+   "n": 100,
+   "rate": 0.33,
+   "wilson95": [
+    0.24562983793895452,
+    0.4269483966028862
+   ],
+   "text": "33/100 (25% to 43%)",
+   "pending": 0
+  },
+  "catchable_bugs": {
+   "k": 30,
+   "n": 77,
+   "rate": 0.38961038961038963,
+   "wilson95": [
+    0.288420845322659,
+    0.5012913820454289
+   ],
+   "text": "30/77 (29% to 50%)",
+   "pending": 0
+  },
+  "M_orig": 32,
+  "h2h_M_catchable": {
+   "n": 26,
+   "both": 2,
+   "only_ml": 11,
+   "only_cr": 2,
+   "neither": 11,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.0224609375,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 13,
+    "n": 26,
+    "rate": 0.5,
+    "wilson95": [
+     0.32060306315002074,
+     0.6793969368499793
+    ],
+    "text": "13/26 (32% to 68%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 4,
+    "n": 26,
+    "rate": 0.15384615384615385,
+    "wilson95": [
+     0.06149933998929477,
+     0.33531584418313565
+    ],
+    "text": "4/26 (6.1% to 34%)",
+    "pending": 0
+   }
+  },
+  "h2h_M_all": {
+   "n": 32,
+   "both": 3,
+   "only_ml": 12,
+   "only_cr": 2,
+   "neither": 15,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.012939453125,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 15,
+    "n": 32,
+    "rate": 0.46875,
+    "wilson95": [
+     0.30869129901682335,
+     0.6355076206742619
+    ],
+    "text": "15/32 (31% to 64%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 5,
+    "n": 32,
+    "rate": 0.15625,
+    "wilson95": [
+     0.06864319106627216,
+     0.31754492553566527
+    ],
+    "text": "5/32 (6.9% to 32%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_catchable": {
+   "n": 33,
+   "both": 2,
+   "only_ml": 11,
+   "only_cr": 3,
+   "neither": 17,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.057373046875,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 13,
+    "n": 33,
+    "rate": 0.3939393939393939,
+    "wilson95": [
+     0.24682882231508207,
+     0.5631685719348962
+    ],
+    "text": "13/33 (25% to 56%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 5,
+    "n": 33,
+    "rate": 0.15151515151515152,
+    "wilson95": [
+     0.06650359257960956,
+     0.30920213138460484
+    ],
+    "text": "5/33 (6.7% to 31%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_all": {
+   "n": 43,
+   "both": 3,
+   "only_ml": 12,
+   "only_cr": 4,
+   "neither": 24,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.076812744140625,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 15,
+    "n": 43,
+    "rate": 0.3488372093023256,
+    "wilson95": [
+     0.22418398748963103,
+     0.49828492902901905
+    ],
+    "text": "15/43 (22% to 50%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 7,
+    "n": 43,
+    "rate": 0.16279069767441862,
+    "wilson95": [
+     0.08116524502857546,
+     0.2997269533591824
+    ],
+    "text": "7/43 (8.1% to 30%)",
+    "pending": 0
+   }
+  }
+ },
+ "M2-r2": {
+  "completion_100": 100,
+  "all_bugs": {
+   "k": 54,
+   "n": 100,
+   "rate": 0.54,
+   "wilson95": [
+    0.44264685393523856,
+    0.6343935614666815
+   ],
+   "text": "54/100 (44% to 63%)",
+   "pending": 0
+  },
+  "catchable_bugs": {
+   "k": 48,
+   "n": 77,
+   "rate": 0.6233766233766234,
+   "wilson95": [
+    0.511725974706673,
+    0.7233015358819349
+   ],
+   "text": "48/77 (51% to 72%)",
+   "pending": 0
+  },
+  "M_orig": 43,
+  "h2h_M_catchable": {
+   "n": 33,
+   "both": 4,
+   "only_ml": 19,
+   "only_cr": 1,
+   "neither": 9,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 4.00543212890625e-05,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 23,
+    "n": 33,
+    "rate": 0.696969696969697,
+    "wilson95": [
+     0.5266154602526555,
+     0.8262465218545277
+    ],
+    "text": "23/33 (53% to 83%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 5,
+    "n": 33,
+    "rate": 0.15151515151515152,
+    "wilson95": [
+     0.06650359257960956,
+     0.30920213138460484
+    ],
+    "text": "5/33 (6.7% to 31%)",
+    "pending": 0
+   }
+  },
+  "h2h_M_all": {
+   "n": 43,
+   "both": 5,
+   "only_ml": 20,
+   "only_cr": 2,
+   "neither": 16,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.00012111663818359375,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 25,
+    "n": 43,
+    "rate": 0.5813953488372093,
+    "wilson95": [
+     0.43328315755711777,
+     0.7161566566251477
+    ],
+    "text": "25/43 (43% to 72%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 7,
+    "n": 43,
+    "rate": 0.16279069767441862,
+    "wilson95": [
+     0.08116524502857546,
+     0.2997269533591824
+    ],
+    "text": "7/43 (8.1% to 30%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_catchable": {
+   "n": 33,
+   "both": 4,
+   "only_ml": 19,
+   "only_cr": 1,
+   "neither": 9,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 4.00543212890625e-05,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 23,
+    "n": 33,
+    "rate": 0.696969696969697,
+    "wilson95": [
+     0.5266154602526555,
+     0.8262465218545277
+    ],
+    "text": "23/33 (53% to 83%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 5,
+    "n": 33,
+    "rate": 0.15151515151515152,
+    "wilson95": [
+     0.06650359257960956,
+     0.30920213138460484
+    ],
+    "text": "5/33 (6.7% to 31%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_all": {
+   "n": 43,
+   "both": 5,
+   "only_ml": 20,
+   "only_cr": 2,
+   "neither": 16,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.00012111663818359375,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 25,
+    "n": 43,
+    "rate": 0.5813953488372093,
+    "wilson95": [
+     0.43328315755711777,
+     0.7161566566251477
+    ],
+    "text": "25/43 (43% to 72%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 7,
+    "n": 43,
+    "rate": 0.16279069767441862,
+    "wilson95": [
+     0.08116524502857546,
+     0.2997269533591824
+    ],
+    "text": "7/43 (8.1% to 30%)",
+    "pending": 0
+   }
+  }
+ },
+ "M1-union": {
+  "completion_100": 67,
+  "all_bugs": {
+   "k": 27,
+   "n": 100,
+   "rate": 0.27,
+   "wilson95": [
+    0.1926946091766482,
+    0.3643230022623127
+   ],
+   "text": "27/100 (19% to 36%)",
+   "pending": 0
+  },
+  "catchable_bugs": {
+   "k": 23,
+   "n": 77,
+   "rate": 0.2987012987012987,
+   "wilson95": [
+    0.2080375145120104,
+    0.4084965471592084
+   ],
+   "text": "23/77 (21% to 41%)",
+   "pending": 0
+  },
+  "M_orig": 29,
+  "h2h_M_catchable": {
+   "n": 24,
+   "both": 1,
+   "only_ml": 10,
+   "only_cr": 3,
+   "neither": 10,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.09228515625,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 11,
+    "n": 24,
+    "rate": 0.4583333333333333,
+    "wilson95": [
+     0.2789105835168143,
+     0.6492544644689336
+    ],
+    "text": "11/24 (28% to 65%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 4,
+    "n": 24,
+    "rate": 0.16666666666666666,
+    "wilson95": [
+     0.06678568000728924,
+     0.3585347038786943
+    ],
+    "text": "4/24 (6.7% to 36%)",
+    "pending": 0
+   }
+  },
+  "h2h_M_all": {
+   "n": 29,
+   "both": 2,
+   "only_ml": 11,
+   "only_cr": 4,
+   "neither": 12,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.11846923828125,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 13,
+    "n": 29,
+    "rate": 0.4482758620689655,
+    "wilson95": [
+     0.2841291114874579,
+     0.6245233293193238
+    ],
+    "text": "13/29 (28% to 62%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 6,
+    "n": 29,
+    "rate": 0.20689655172413793,
+    "wilson95": [
+     0.09845936515585207,
+     0.3839044660825772
+    ],
+    "text": "6/29 (9.8% to 38%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_catchable": {
+   "n": 33,
+   "both": 1,
+   "only_ml": 10,
+   "only_cr": 4,
+   "neither": 18,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.1795654296875,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 11,
+    "n": 33,
+    "rate": 0.3333333333333333,
+    "wilson95": [
+     0.19750029467803698,
+     0.5039241820005003
+    ],
+    "text": "11/33 (20% to 50%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 5,
+    "n": 33,
+    "rate": 0.15151515151515152,
+    "wilson95": [
+     0.06650359257960956,
+     0.30920213138460484
+    ],
+    "text": "5/33 (6.7% to 31%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_all": {
+   "n": 43,
+   "both": 2,
+   "only_ml": 11,
+   "only_cr": 5,
+   "neither": 25,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.210113525390625,
+   "conclusion": "no significant difference",
+   "ml": {
+    "k": 13,
+    "n": 43,
+    "rate": 0.3023255813953488,
+    "wilson95": [
+     0.18601827946182872,
+     0.4510564575240983
+    ],
+    "text": "13/43 (19% to 45%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 7,
+    "n": 43,
+    "rate": 0.16279069767441862,
+    "wilson95": [
+     0.08116524502857546,
+     0.2997269533591824
+    ],
+    "text": "7/43 (8.1% to 30%)",
+    "pending": 0
+   }
+  }
+ },
+ "M2-union": {
+  "completion_100": 100,
+  "all_bugs": {
+   "k": 54,
+   "n": 100,
+   "rate": 0.54,
+   "wilson95": [
+    0.44264685393523856,
+    0.6343935614666815
+   ],
+   "text": "54/100 (44% to 63%)",
+   "pending": 0
+  },
+  "catchable_bugs": {
+   "k": 48,
+   "n": 77,
+   "rate": 0.6233766233766234,
+   "wilson95": [
+    0.511725974706673,
+    0.7233015358819349
+   ],
+   "text": "48/77 (51% to 72%)",
+   "pending": 0
+  },
+  "M_orig": 43,
+  "h2h_M_catchable": {
+   "n": 33,
+   "both": 4,
+   "only_ml": 19,
+   "only_cr": 1,
+   "neither": 9,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 4.00543212890625e-05,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 23,
+    "n": 33,
+    "rate": 0.696969696969697,
+    "wilson95": [
+     0.5266154602526555,
+     0.8262465218545277
+    ],
+    "text": "23/33 (53% to 83%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 5,
+    "n": 33,
+    "rate": 0.15151515151515152,
+    "wilson95": [
+     0.06650359257960956,
+     0.30920213138460484
+    ],
+    "text": "5/33 (6.7% to 31%)",
+    "pending": 0
+   }
+  },
+  "h2h_M_all": {
+   "n": 43,
+   "both": 5,
+   "only_ml": 20,
+   "only_cr": 2,
+   "neither": 16,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.00012111663818359375,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 25,
+    "n": 43,
+    "rate": 0.5813953488372093,
+    "wilson95": [
+     0.43328315755711777,
+     0.7161566566251477
+    ],
+    "text": "25/43 (43% to 72%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 7,
+    "n": 43,
+    "rate": 0.16279069767441862,
+    "wilson95": [
+     0.08116524502857546,
+     0.2997269533591824
+    ],
+    "text": "7/43 (8.1% to 30%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_catchable": {
+   "n": 33,
+   "both": 4,
+   "only_ml": 19,
+   "only_cr": 1,
+   "neither": 9,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 4.00543212890625e-05,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 23,
+    "n": 33,
+    "rate": 0.696969696969697,
+    "wilson95": [
+     0.5266154602526555,
+     0.8262465218545277
+    ],
+    "text": "23/33 (53% to 83%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 5,
+    "n": 33,
+    "rate": 0.15151515151515152,
+    "wilson95": [
+     0.06650359257960956,
+     0.30920213138460484
+    ],
+    "text": "5/33 (6.7% to 31%)",
+    "pending": 0
+   }
+  },
+  "h2h_43_all": {
+   "n": 43,
+   "both": 5,
+   "only_ml": 20,
+   "only_cr": 2,
+   "neither": 16,
+   "pending": 0,
+   "mcnemar_exact_two_sided_p": 0.00012111663818359375,
+   "conclusion": "MegaLens better",
+   "ml": {
+    "k": 25,
+    "n": 43,
+    "rate": 0.5813953488372093,
+    "wilson95": [
+     0.43328315755711777,
+     0.7161566566251477
+    ],
+    "text": "25/43 (43% to 72%)",
+    "pending": 0
+   },
+   "cr": {
+    "k": 7,
+    "n": 43,
+    "rate": 0.16279069767441862,
+    "wilson95": [
+     0.08116524502857546,
+     0.2997269533591824
+    ],
+    "text": "7/43 (8.1% to 30%)",
+    "pending": 0
+   }
+  }
+ }
+}
