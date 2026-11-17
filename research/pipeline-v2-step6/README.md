@@ -42,3 +42,14 @@ Written and published before any catch result, head-to-head count or tally outpu
 - MegaLens on all 100 PRs is a separate table, never mixed into the head-to-head. A sensitivity row keeps the earlier all-43 definition, with MegaLens failures counted as misses.
 - New: precision of posted findings for both tools, assessed blind in one mixed pool. False verified is reported for MegaLens; CodeRabbit has no verified label, so it is not measurable there.
 - Section A8.9 of the amendment lists exactly what had already been run or seen when it was written.
+
+## Amendment A9: refusals by the benchmark account's call quota (17 Nov 2026, before any re-run and before any result was opened)
+
+Full text: [AMENDMENT-A9.md](AMENDMENT-A9.md), sha256 `41c666b96eddd3fad1ce81248c00164e4107097149ccc0e4df0de0e546d2b629`.
+
+All runs share one internal account. The live service's per-account runaway-loop guard (60 review calls an hour, 100 a day) refused many calls at admission: no review ran, and nothing was charged. The run harness retried too fast, so affected PRs used up their 5 attempts on these refusals.
+- Under A9, a quota refusal does not count as an attempt; every other failure still counts. Affected PR-runs resume with their remaining attempts, and every earlier attempt is kept and published.
+- For the rest of the campaign, the guard is raised to 150 an hour and 500 a day, on the same frozen build and feature switches. It is restored afterwards, by 18 Nov 23:59 UTC at the latest.
+- Reviewer decisions produced before A9 (route 1 run 1 and the CodeRabbit side) are superseded, archived unopened and published as such. All five arms are assessed fresh after every run is complete.
+- Results are also shown under the original protocol (quota refusals counted as failed attempts), so the effect of A9 is visible.
+- Nothing is opened until every run is complete and assessed. A status note without results follows at 05:00 UTC on 18 Nov.
