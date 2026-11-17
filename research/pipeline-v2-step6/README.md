@@ -25,4 +25,11 @@ Two independent blind labellers labelled all 100 PRs. They agreed on 83 of 100 c
 | Adjudication, part 2 | 3c23ef6f9c7ada79364630160361f401a3b3946717b5ce56ce3e8337af3d9695 |
 | Archived documentation citations (index) | 14d4a35e9adb3ff85a302c481a3e1cad1f2f48da23326f5a9e4b51cb8d53c209 |
 
-Still to be hashed before any MegaLens run: the frozen build and settings.
+## Build and settings frozen (17 Nov 2026, before any run)
+
+| Item | Value |
+|---|---|
+| Build (git commit of the service that runs every review) | f2b1b520fbe5d03813271a922d91f1c61cc974cc |
+| Settings file (feature switches only, no secrets), sha256 | f0ef0017c4580954261c5e626b14c5b1df3dd83a027bc7a27b32535f38fb7762 |
+
+Every run record carries the build that served it; a run on any other build does not count.
