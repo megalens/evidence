@@ -33,3 +33,12 @@ Two independent blind labellers labelled all 100 PRs. They agreed on 83 of 100 c
 | Settings file (feature switches only, no secrets), sha256 | f0ef0017c4580954261c5e626b14c5b1df3dd83a027bc7a27b32535f38fb7762 |
 
 Every run record carries the build that served it; a run on any other build does not count.
+
+## Amendment A8: same-items head-to-head (17 Nov 2026, before any result was opened)
+
+Written and published before any catch result, head-to-head count or tally output was opened. Full text: [AMENDMENT-A8.md](AMENDMENT-A8.md), sha256 `7ef4e58e933b6da4a5a08e769825c3ae86ea7f99f680ceb4bc3519e7dee5adf0`. In short:
+- The head-to-head uses only the PRs that both tools actually reviewed (M), and only the frozen catchable bugs on those PRs (E). Both tools are scored on E with the same catch rule and the same blind reviewers.
+- Reported: each tool's k/|E| with a 95% Wilson interval, the paired split (both, only MegaLens, only CodeRabbit, neither) and an exact two-sided McNemar test on the discordant bugs. "Better" only if p < 0.05.
+- MegaLens on all 100 PRs is a separate table, never mixed into the head-to-head. A sensitivity row keeps the earlier all-43 definition, with MegaLens failures counted as misses.
+- New: precision of posted findings for both tools, assessed blind in one mixed pool. False verified is reported for MegaLens; CodeRabbit has no verified label, so it is not measurable there.
+- Section A8.9 of the amendment lists exactly what had already been run or seen when it was written.
