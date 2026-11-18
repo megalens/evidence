@@ -1,0 +1,59 @@
+# Fresh set: pre-registration hashes (18 Nov 2026)
+
+A second sealed benchmark set: pull requests merged after the earlier set, so that models are unlikely to have seen the later fixes in their training data. Its labels were frozen, and these hashes published, before any MegaLens run on the set and before any CodeRabbit review on it was opened.
+
+## How the set was built
+1. **Sources:** public repositories with an OSI licence, reached only through GitHub's public API. We hold no account, trial or subscription with any code review vendor.
+2. **Each pull request:**
+   - was merged between 5 Aug and 29 Oct 2026;
+   - received a pre-merge CodeRabbit review with inline comments, checked from the comment author and comment type only. No review text was read;
+   - has a later fix, merged by 1 Nov 2026, that changes lines the pull request added or touched.
+3. **Size:** 43 pull requests, at most one per repository.
+   - No repository overlaps with the earlier 100-PR set or the 30-PR development set.
+   - Languages: TypeScript 16, Python 9, Go 4, JavaScript 3, C# 2, Shell 2, and one each of Swift, Kotlin, Rust, C++, PowerShell, Dart and C.
+4. **Bug descriptions:**
+   - written from the pull request and its later fix;
+   - every description checked by an independent reviewer against both patches;
+   - 6 corrected;
+   - 1 item found invalid (the bug existed before the pull request) and kept in the manifest, but excluded from scoring.
+
+## Labels
+- **Labellers:** two independent blind labellers from two different model families, using the same locked rules as the earlier set (rules sha256 below). Neither saw the fix or any review.
+- **Agreement:** the labellers agreed fully on 27 of 43 items. The other 16 were settled by an adjudicator, under the locked rule that a still-disputed item is not catchable.
+- **Result:** of the 42 valid items, 27 are catchable and 15 are not.
+  - Catchable from the repository alone: 24.
+  - Needing a pinned official document: 3, each with its citation checked.
+
+| File | sha256 |
+|---|---|
+| Claim set manifest | faf5a506a4cb87b998dfadb7099fd15408d70633b302f25015b88c8dd9acd654 |
+| Final labels | bb8a6ded86ef2572ee33c23b2eafb2005101e50ba467f982a548ce8dfb578d76 |
+| Adjudication | fee13b0aeb479a223005a7cde7b75e3594ee71cd2f4d12a93b42904e677bc86b |
+| Bug-description audit, including the corrections | 49312f2a7e30a17964342245453df1566ebed0f6ac94a18ecfaf3483ea8b3773 |
+| Bug descriptions (files concatenated in sorted order) | d1afb899c737966e2009792ca6e02a64fb020e9f2c0330cf4d7f6ae1680c3819 |
+| Labelling rules (same file as the earlier set) | 5da513ff8a54085896e35e82181e466f7e8b5b3d2d68901914d112dfdaa66920 |
+
+## Protocol (registered now, before any run)
+- **Arms:**
+  - MegaLens through the coding-assistant plugin (route 2), two runs;
+  - MegaLens through the MCP review tool (route 1), one run;
+  - CodeRabbit's saved pre-merge reviews.
+- **Build:** the MegaLens build and its review feature switches will be frozen and their hashes committed here before the first run.
+- **Rules carried over from the earlier set:**
+  - its pre-registration;
+  - amendment A8, the same-items head-to-head: MegaLens and CodeRabbit are compared only on pull requests both reviewed, and only on the frozen catchable bugs there. A bug counts as caught only when two blind reviewers both say "hit";
+  - the exact two-sided McNemar test (A6). "Better" is claimed only when p < 0.05;
+  - precision of posted findings from one mixed blind pool;
+  - false verified, for MegaLens only;
+  - amendment A9: refusals by the account's call quota do not count as attempts.
+- **Reporting:** every rate is shown as k/n with a 95% Wilson interval. Every run is published, not the best one.
+- **Identities:** repository and pull request identities are withheld pending a separate decision.
+  - Per-item results will use a keyed hash, so the identities cannot be recovered by guessing.
+  - The list of pull requests is not published.
+  - These hashes are not anonymisation; the identities are simply withheld.
+
+## Disclosures
+1. While the set was being built, two incidental exposures occurred. Neither was review text on a benchmarked pull request.
+   - A fix commit message carried a one-line auto-generated release note for the fix.
+   - One item's sealed note says its fix followed a review finding. It does not say what the finding was.
+2. 14 of the 43 repositories use a copyleft licence (GPL or AGPL). The earlier set used only permissive licences.
