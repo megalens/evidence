@@ -57,3 +57,13 @@ A second sealed benchmark set: pull requests merged after the earlier set, so th
    - A fix commit message carried a one-line auto-generated release note for the fix.
    - One item's sealed note says its fix followed a review finding. It does not say what the finding was.
 2. 14 of the 43 repositories use a copyleft licence (GPL or AGPL). The earlier set used only permissive licences.
+
+## Run configuration (frozen 18 Nov 2026, before the first run)
+| Item | Value |
+|---|---|
+| MegaLens build (git commit) | 80fe5c2b3dd79da72a199c21558f638d461213c2 |
+| Review feature switches (SHA-256 of the sorted on/off list of the production server) | e01d04e8ecaee42890751fa7333ca88a38a7c6c2e5ebd5eaff19dcc3c4920d6e |
+
+- **Where the runs happen:** a separate test server on the same machine as production, not the production server itself. It runs the same build as production.
+- **Switch parity:** the test server has the same review feature switches as production. It differs only in five switches that do not affect a review: two for the GitHub app, which these runs do not use, and three that mark it as a test server (alerts silenced, test-only modes). It also allows more calls per hour and per day, so that a whole run fits in one go.
+- **Large-input packing:** this build contains a new large-input packing feature. Its switch is off on production and off for these runs.
