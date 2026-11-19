@@ -67,3 +67,21 @@ A second sealed benchmark set: pull requests merged after the earlier set, so th
 - **Where the runs happen:** a separate test server on the same machine as production, not the production server itself. It runs the same build as production.
 - **Switch parity:** the test server has the same review feature switches as production. It differs only in five switches that do not affect a review: two for the GitHub app, which these runs do not use, and three that mark it as a test server (alerts silenced, test-only modes). It also allows more calls per hour and per day, so that a whole run fits in one go.
 - **Large-input packing:** this build contains a new large-input packing feature. Its switch is off on production and off for these runs.
+
+## Second look (registered 19 Nov 2026, before any second-look run)
+The first-look results in RESULTS.md stand as published. A second look measures a newer build on the same set. It is a second look, not a replacement, and nothing in it was tuned on this set: every change was decided on the separate development sets.
+
+| Item | Value |
+|---|---|
+| MegaLens build (git commit) | dee6ffdb894afd67a6aa5477bf5ec59a7448b113 |
+| Review feature switches, production, at registration | 1f5f7cd9f5445124b37b9661d8c713b1fc128d351e228b3b2f6aec139f9879f0 |
+
+- **Switch hash method (published from now on):** SHA-256 of the newline-joined, sorted list `NAME=on` / `NAME=off` over the build's registered review switch names, each read with the build's own switch reader from the production settings. The first-look hash above was computed before this method was written down; it is not recomputed or compared here.
+- **What changed for users since the first look:** three display switches were turned on, one at a time, after checks on the development sets:
+  1. a line number on each finding whose quoted code line is found exactly once in the sent code;
+  2. each verified finding shows the explanation its check gave, labelled as not re-checked;
+  3. the main list is sorted by strength, findings the check rejected move to a separate section, and near-duplicates are merged only when file, title and quoted lines agree.
+  None of them changes how a finding is checked or what a review costs. The build also contains a code-retrieval feature that is off on production and off for these runs.
+- **Arms and rules:** the same as the first look. Plugin route two runs, MCP route one run, all 43 items. The same two blind reviewers, the same frozen labels, the same tests (A6, A8, A9), every run published. CodeRabbit's arm is not re-run; its saved reviews are the same.
+- **Scoring note:** scoring reads every finding in the answer, including the rejected section, exactly as the first look read findings the check had disputed. The results will also report how many catches sit in the main list.
+- **Where the runs happen:** the same separate test server as the first look, on this build, with production's switches.
