@@ -85,3 +85,5 @@ The first-look results in RESULTS.md stand as published. A second look measures 
 - **Arms and rules:** the same as the first look. Plugin route two runs, MCP route one run, all 43 items. The same two blind reviewers, the same frozen labels, the same tests (A6, A8, A9), every run published. CodeRabbit's arm is not re-run; its saved reviews are the same.
 - **Scoring note:** scoring reads every finding in the answer, including the rejected section, exactly as the first look read findings the check had disputed. The results will also report how many catches sit in the main list.
 - **Where the runs happen:** the same separate test server as the first look, on this build, with production's switches.
+
+**Second look results:** [SECOND-LOOK.md](SECOND-LOOK.md), with counts in `results-second-look/`.

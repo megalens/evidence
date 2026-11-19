@@ -1,0 +1,3177 @@
+{
+ "format": "fresh-6",
+ "population": {
+  "items": 43,
+  "invalid": 1,
+  "valid": 42,
+  "catchable_yes": 27,
+  "catchable_no": 15,
+  "manifest_real_review": 43,
+  "manifest_not_real_review": 0,
+  "valid_real_review": 42
+ },
+ "arms": {
+  "M1-r1": {
+   "rates": {
+    "all_bugs": {
+     "k": 17,
+     "n": 42,
+     "rate": 0.40476190476190477,
+     "wilson95": [
+      0.27042647671209086,
+      0.5550595447182258
+     ],
+     "text": "17/42 (27% to 56%)",
+     "pending": 0
+    },
+    "catchable_bugs": {
+     "k": 13,
+     "n": 27,
+     "rate": 0.48148148148148145,
+     "wilson95": [
+      0.3074295064970908,
+      0.6601467541378958
+     ],
+     "text": "13/27 (31% to 66%)",
+     "pending": 0
+    },
+    "needs_documented_external_bugs": {
+     "k": 1,
+     "n": 3,
+     "rate": 0.3333333333333333,
+     "wilson95": [
+      0.0614903152761605,
+      0.7923450448735121
+     ],
+     "text": "1/3 (6.1% to 79%)",
+     "pending": 0
+    },
+    "repo_only_bugs": {
+     "k": 12,
+     "n": 24,
+     "rate": 0.5,
+     "wilson95": [
+      0.31427131627763083,
+      0.6857286837223692
+     ],
+     "text": "12/24 (31% to 69%)",
+     "pending": 0
+    }
+   },
+   "completion": {
+    "k": 40,
+    "n": 42,
+    "rate": 0.9523809523809523,
+    "wilson95": [
+     0.8420986468452026,
+     0.9868427513607937
+    ],
+    "text": "40/42 (84% to 99%)"
+   },
+   "final_records": 42,
+   "attempts": {
+    "total": 50,
+    "counted": 50,
+    "quota_refused": 0,
+    "retries": 8,
+    "attempt_files": 50,
+    "histogram": {
+     "1": 40,
+     "5": 2
+    },
+    "statuses": {
+     "failed": 2,
+     "MCP_APPROVED": 40
+    }
+   },
+   "reviewer_split": 1,
+   "confirmed_reviewer_split": 1,
+   "recall_label_disagreements": 8,
+   "pending_recall_pairs": 0,
+   "live_source_matches_snapshot": true,
+   "verified": {
+    "V": 29,
+    "W": 1,
+    "confirmed_wrong": 1,
+    "contested": 6,
+    "confirmed_contested": 6,
+    "both_unsure": 0,
+    "pending": 0,
+    "wrong_verified": {
+     "k": 1,
+     "n": 29,
+     "rate": 0.034482758620689655,
+     "wilson95": [
+      0.006113056614032261,
+      0.1717589106470025
+     ],
+     "text": "1/29 (0.6% to 17%)"
+    },
+    "including_contested": {
+     "k": 7,
+     "n": 29,
+     "rate": 0.2413793103448276,
+     "wilson95": [
+      0.12218268185062131,
+      0.4210795221832869
+     ],
+     "text": "7/29 (12% to 42%)"
+    },
+    "upper95_excluding_contested": 0.1717589106470025,
+    "upper95_including_contested": 0.4210795221832869,
+    "sample_size_note": "Proving <=1% requires about 381 verified findings with 0 wrong, or about 563 with 1 wrong. Do not claim <=1% without that sample size."
+   }
+  },
+  "M2-r1": {
+   "rates": {
+    "all_bugs": {
+     "k": 13,
+     "n": 42,
+     "rate": 0.30952380952380953,
+     "wilson95": [
+      0.1907092651972273,
+      0.46026277766340595
+     ],
+     "text": "13/42 (19% to 46%)",
+     "pending": 0
+    },
+    "catchable_bugs": {
+     "k": 10,
+     "n": 27,
+     "rate": 0.37037037037037035,
+     "wilson95": [
+      0.21532287067936856,
+      0.5577109537655369
+     ],
+     "text": "10/27 (22% to 56%)",
+     "pending": 0
+    },
+    "needs_documented_external_bugs": {
+     "k": 0,
+     "n": 3,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.5615060804490177
+     ],
+     "text": "0/3 (0% to 56%)",
+     "pending": 0
+    },
+    "repo_only_bugs": {
+     "k": 10,
+     "n": 24,
+     "rate": 0.4166666666666667,
+     "wilson95": [
+      0.24467347246538232,
+      0.6116566235061137
+     ],
+     "text": "10/24 (24% to 61%)",
+     "pending": 0
+    }
+   },
+   "completion": {
+    "k": 42,
+    "n": 42,
+    "rate": 1.0,
+    "wilson95": [
+     0.9161983874908382,
+     1.0
+    ],
+    "text": "42/42 (92% to 100%)"
+   },
+   "final_records": 42,
+   "attempts": {
+    "total": 42,
+    "counted": 42,
+    "quota_refused": 0,
+    "retries": 0,
+    "attempt_files": 42,
+    "histogram": {
+     "1": 42
+    },
+    "statuses": {
+     "MCP_APPROVED": 42
+    }
+   },
+   "reviewer_split": 2,
+   "confirmed_reviewer_split": 2,
+   "recall_label_disagreements": 4,
+   "pending_recall_pairs": 0,
+   "live_source_matches_snapshot": true,
+   "verified": {
+    "V": 52,
+    "W": 1,
+    "confirmed_wrong": 1,
+    "contested": 13,
+    "confirmed_contested": 13,
+    "both_unsure": 6,
+    "pending": 0,
+    "wrong_verified": {
+     "k": 1,
+     "n": 52,
+     "rate": 0.019230769230769232,
+     "wilson95": [
+      0.0034027204090655225,
+      0.10120746268024422
+     ],
+     "text": "1/52 (0.3% to 10%)"
+    },
+    "including_contested": {
+     "k": 14,
+     "n": 52,
+     "rate": 0.2692307692307692,
+     "wilson95": [
+      0.1676881003582587,
+      0.4025247875246099
+     ],
+     "text": "14/52 (17% to 40%)"
+    },
+    "upper95_excluding_contested": 0.10120746268024422,
+    "upper95_including_contested": 0.4025247875246099,
+    "sample_size_note": "Proving <=1% requires about 381 verified findings with 0 wrong, or about 563 with 1 wrong. Do not claim <=1% without that sample size."
+   }
+  },
+  "M2-r2": {
+   "rates": {
+    "all_bugs": {
+     "k": 16,
+     "n": 42,
+     "rate": 0.38095238095238093,
+     "wilson95": [
+      0.24999520898785943,
+      0.5318623178000363
+     ],
+     "text": "16/42 (25% to 53%)",
+     "pending": 0
+    },
+    "catchable_bugs": {
+     "k": 12,
+     "n": 27,
+     "rate": 0.4444444444444444,
+     "wilson95": [
+      0.2758559767007283,
+      0.6268728052042312
+     ],
+     "text": "12/27 (28% to 63%)",
+     "pending": 0
+    },
+    "needs_documented_external_bugs": {
+     "k": 1,
+     "n": 3,
+     "rate": 0.3333333333333333,
+     "wilson95": [
+      0.0614903152761605,
+      0.7923450448735121
+     ],
+     "text": "1/3 (6.1% to 79%)",
+     "pending": 0
+    },
+    "repo_only_bugs": {
+     "k": 11,
+     "n": 24,
+     "rate": 0.4583333333333333,
+     "wilson95": [
+      0.2789105835168143,
+      0.6492544644689336
+     ],
+     "text": "11/24 (28% to 65%)",
+     "pending": 0
+    }
+   },
+   "completion": {
+    "k": 41,
+    "n": 42,
+    "rate": 0.9761904761904762,
+    "wilson95": [
+     0.8767851883475174,
+     0.9957847045008997
+    ],
+    "text": "41/42 (88% to 100%)"
+   },
+   "final_records": 42,
+   "attempts": {
+    "total": 46,
+    "counted": 46,
+    "quota_refused": 0,
+    "retries": 4,
+    "attempt_files": 46,
+    "histogram": {
+     "1": 41,
+     "5": 1
+    },
+    "statuses": {
+     "MCP_APPROVED": 41,
+     "failed": 1
+    }
+   },
+   "reviewer_split": 3,
+   "confirmed_reviewer_split": 3,
+   "recall_label_disagreements": 6,
+   "pending_recall_pairs": 0,
+   "live_source_matches_snapshot": true,
+   "verified": {
+    "V": 39,
+    "W": 0,
+    "confirmed_wrong": 0,
+    "contested": 19,
+    "confirmed_contested": 19,
+    "both_unsure": 0,
+    "pending": 0,
+    "wrong_verified": {
+     "k": 0,
+     "n": 39,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.08966985360023902
+     ],
+     "text": "0/39 (0% to 9.0%)"
+    },
+    "including_contested": {
+     "k": 19,
+     "n": 39,
+     "rate": 0.48717948717948717,
+     "wilson95": [
+      0.3386492878313309,
+      0.6380089135430342
+     ],
+     "text": "19/39 (34% to 64%)"
+    },
+    "upper95_excluding_contested": 0.08966985360023902,
+    "upper95_including_contested": 0.6380089135430342,
+    "sample_size_note": "Proving <=1% requires about 381 verified findings with 0 wrong, or about 563 with 1 wrong. Do not claim <=1% without that sample size."
+   }
+  },
+  "CR": {
+   "rates": {
+    "all_bugs": {
+     "k": 6,
+     "n": 42,
+     "rate": 0.14285714285714285,
+     "wilson95": [
+      0.06715875684189933,
+      0.2784138235217878
+     ],
+     "text": "6/42 (6.7% to 28%)",
+     "pending": 0
+    },
+    "catchable_bugs": {
+     "k": 4,
+     "n": 27,
+     "rate": 0.14814814814814814,
+     "wilson95": [
+      0.059158318596448906,
+      0.32479063346829484
+     ],
+     "text": "4/27 (5.9% to 32%)",
+     "pending": 0
+    },
+    "needs_documented_external_bugs": {
+     "k": 0,
+     "n": 3,
+     "rate": 0.0,
+     "wilson95": [
+      0.0,
+      0.5615060804490177
+     ],
+     "text": "0/3 (0% to 56%)",
+     "pending": 0
+    },
+    "repo_only_bugs": {
+     "k": 4,
+     "n": 24,
+     "rate": 0.16666666666666666,
+     "wilson95": [
+      0.06678568000728924,
+      0.3585347038786943
+     ],
+     "text": "4/24 (6.7% to 36%)",
+     "pending": 0
+    }
+   },
+   "completion": {
+    "k": 42,
+    "n": 42,
+    "rate": 1.0,
+    "wilson95": [
+     0.9161983874908382,
+     1.0
+    ],
+    "text": "42/42 (92% to 100%)"
+   },
+   "final_records": 42,
+   "attempts": null,
+   "reviewer_split": 1,
+   "confirmed_reviewer_split": 1,
+   "recall_label_disagreements": 7,
+   "pending_recall_pairs": 0,
+   "live_source_matches_snapshot": true,
+   "verified": {
+    "text": "not measurable (no verified label)"
+   }
+  },
+  "M2-union": {
+   "rates": {
+    "all_bugs": {
+     "k": 16,
+     "n": 42,
+     "rate": 0.38095238095238093,
+     "wilson95": [
+      0.24999520898785943,
+      0.5318623178000363
+     ],
+     "text": "16/42 (25% to 53%)",
+     "pending": 0
+    },
+    "catchable_bugs": {
+     "k": 12,
+     "n": 27,
+     "rate": 0.4444444444444444,
+     "wilson95": [
+      0.2758559767007283,
+      0.6268728052042312
+     ],
+     "text": "12/27 (28% to 63%)",
+     "pending": 0
+    },
+    "needs_documented_external_bugs": {
+     "k": 1,
+     "n": 3,
+     "rate": 0.3333333333333333,
+     "wilson95": [
+      0.0614903152761605,
+      0.7923450448735121
+     ],
+     "text": "1/3 (6.1% to 79%)",
+     "pending": 0
+    },
+    "repo_only_bugs": {
+     "k": 11,
+     "n": 24,
+     "rate": 0.4583333333333333,
+     "wilson95": [
+      0.2789105835168143,
+      0.6492544644689336
+     ],
+     "text": "11/24 (28% to 65%)",
+     "pending": 0
+    }
+   },
+   "completion": {
+    "k": 42,
+    "n": 42,
+    "rate": 1.0,
+    "wilson95": [
+     0.9161983874908382,
+     1.0
+    ],
+    "text": "42/42 (92% to 100%)"
+   },
+   "attempts": {
+    "total": 88,
+    "counted": 88,
+    "quota_refused": 0,
+    "retries": 4
+   }
+  }
+ },
+ "head_to_head": {
+  "M1-r1": {
+   "catchable_bugs": {
+    "n": 26,
+    "both": 3,
+    "only_ml": 10,
+    "only_cr": 1,
+    "neither": 12,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.01171875,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 13,
+     "n": 26,
+     "rate": 0.5,
+     "wilson95": [
+      0.32060306315002074,
+      0.6793969368499793
+     ],
+     "text": "13/26 (32% to 68%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 4,
+     "n": 26,
+     "rate": 0.15384615384615385,
+     "wilson95": [
+      0.06149933998929477,
+      0.33531584418313565
+     ],
+     "text": "4/26 (6.1% to 34%)",
+     "pending": 0
+    }
+   },
+   "all_bugs": {
+    "n": 40,
+    "both": 4,
+    "only_ml": 13,
+    "only_cr": 2,
+    "neither": 21,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.00738525390625,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 17,
+     "n": 40,
+     "rate": 0.425,
+     "wilson95": [
+      0.28509168524815875,
+      0.5780519956394001
+     ],
+     "text": "17/40 (29% to 58%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 6,
+     "n": 40,
+     "rate": 0.15,
+     "wilson95": [
+      0.07061091708507435,
+      0.2907262603902003
+     ],
+     "text": "6/40 (7.1% to 29%)",
+     "pending": 0
+    }
+   },
+   "matched_prs": 40,
+   "dropped_noncompletion_prs": 2
+  },
+  "M2-r1": {
+   "catchable_bugs": {
+    "n": 27,
+    "both": 3,
+    "only_ml": 7,
+    "only_cr": 1,
+    "neither": 16,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.0703125,
+    "conclusion": "no significant difference",
+    "ml": {
+     "k": 10,
+     "n": 27,
+     "rate": 0.37037037037037035,
+     "wilson95": [
+      0.21532287067936856,
+      0.5577109537655369
+     ],
+     "text": "10/27 (22% to 56%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 4,
+     "n": 27,
+     "rate": 0.14814814814814814,
+     "wilson95": [
+      0.059158318596448906,
+      0.32479063346829484
+     ],
+     "text": "4/27 (5.9% to 32%)",
+     "pending": 0
+    }
+   },
+   "all_bugs": {
+    "n": 42,
+    "both": 5,
+    "only_ml": 8,
+    "only_cr": 1,
+    "neither": 28,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.0390625,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 13,
+     "n": 42,
+     "rate": 0.30952380952380953,
+     "wilson95": [
+      0.1907092651972273,
+      0.46026277766340595
+     ],
+     "text": "13/42 (19% to 46%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 6,
+     "n": 42,
+     "rate": 0.14285714285714285,
+     "wilson95": [
+      0.06715875684189933,
+      0.2784138235217878
+     ],
+     "text": "6/42 (6.7% to 28%)",
+     "pending": 0
+    }
+   },
+   "matched_prs": 42,
+   "dropped_noncompletion_prs": 0
+  },
+  "M2-r2": {
+   "catchable_bugs": {
+    "n": 26,
+    "both": 3,
+    "only_ml": 9,
+    "only_cr": 1,
+    "neither": 13,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.021484375,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 12,
+     "n": 26,
+     "rate": 0.46153846153846156,
+     "wilson95": [
+      0.28755582695234905,
+      0.6454236379556988
+     ],
+     "text": "12/26 (29% to 65%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 4,
+     "n": 26,
+     "rate": 0.15384615384615385,
+     "wilson95": [
+      0.06149933998929477,
+      0.33531584418313565
+     ],
+     "text": "4/26 (6.1% to 34%)",
+     "pending": 0
+    }
+   },
+   "all_bugs": {
+    "n": 41,
+    "both": 5,
+    "only_ml": 11,
+    "only_cr": 1,
+    "neither": 24,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.00634765625,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 16,
+     "n": 41,
+     "rate": 0.3902439024390244,
+     "wilson95": [
+      0.2565593521532712,
+      0.5427341610130745
+     ],
+     "text": "16/41 (26% to 54%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 6,
+     "n": 41,
+     "rate": 0.14634146341463414,
+     "wilson95": [
+      0.0688415452945541,
+      0.2844375526858926
+     ],
+     "text": "6/41 (6.9% to 28%)",
+     "pending": 0
+    }
+   },
+   "matched_prs": 41,
+   "dropped_noncompletion_prs": 1
+  },
+  "M2-union": {
+   "catchable_bugs": {
+    "n": 27,
+    "both": 3,
+    "only_ml": 9,
+    "only_cr": 1,
+    "neither": 14,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.021484375,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 12,
+     "n": 27,
+     "rate": 0.4444444444444444,
+     "wilson95": [
+      0.2758559767007283,
+      0.6268728052042312
+     ],
+     "text": "12/27 (28% to 63%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 4,
+     "n": 27,
+     "rate": 0.14814814814814814,
+     "wilson95": [
+      0.059158318596448906,
+      0.32479063346829484
+     ],
+     "text": "4/27 (5.9% to 32%)",
+     "pending": 0
+    }
+   },
+   "all_bugs": {
+    "n": 42,
+    "both": 5,
+    "only_ml": 11,
+    "only_cr": 1,
+    "neither": 25,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.00634765625,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 16,
+     "n": 42,
+     "rate": 0.38095238095238093,
+     "wilson95": [
+      0.24999520898785943,
+      0.5318623178000363
+     ],
+     "text": "16/42 (25% to 53%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 6,
+     "n": 42,
+     "rate": 0.14285714285714285,
+     "wilson95": [
+      0.06715875684189933,
+      0.2784138235217878
+     ],
+     "text": "6/42 (6.7% to 28%)",
+     "pending": 0
+    }
+   },
+   "matched_prs": 42,
+   "dropped_noncompletion_prs": 0
+  }
+ },
+ "sensitivity": {
+  "M1-r1": {
+   "catchable_bugs": {
+    "n": 27,
+    "both": 3,
+    "only_ml": 10,
+    "only_cr": 1,
+    "neither": 13,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.01171875,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 13,
+     "n": 27,
+     "rate": 0.48148148148148145,
+     "wilson95": [
+      0.3074295064970908,
+      0.6601467541378958
+     ],
+     "text": "13/27 (31% to 66%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 4,
+     "n": 27,
+     "rate": 0.14814814814814814,
+     "wilson95": [
+      0.059158318596448906,
+      0.32479063346829484
+     ],
+     "text": "4/27 (5.9% to 32%)",
+     "pending": 0
+    }
+   },
+   "all_bugs": {
+    "n": 42,
+    "both": 4,
+    "only_ml": 13,
+    "only_cr": 2,
+    "neither": 23,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.00738525390625,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 17,
+     "n": 42,
+     "rate": 0.40476190476190477,
+     "wilson95": [
+      0.27042647671209086,
+      0.5550595447182258
+     ],
+     "text": "17/42 (27% to 56%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 6,
+     "n": 42,
+     "rate": 0.14285714285714285,
+     "wilson95": [
+      0.06715875684189933,
+      0.2784138235217878
+     ],
+     "text": "6/42 (6.7% to 28%)",
+     "pending": 0
+    }
+   },
+   "real_review_prs": 42,
+   "completion": {
+    "k": 40,
+    "n": 42,
+    "rate": 0.9523809523809523,
+    "wilson95": [
+     0.8420986468452026,
+     0.9868427513607937
+    ],
+    "text": "40/42 (84% to 99%)"
+   }
+  },
+  "M2-r1": {
+   "catchable_bugs": {
+    "n": 27,
+    "both": 3,
+    "only_ml": 7,
+    "only_cr": 1,
+    "neither": 16,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.0703125,
+    "conclusion": "no significant difference",
+    "ml": {
+     "k": 10,
+     "n": 27,
+     "rate": 0.37037037037037035,
+     "wilson95": [
+      0.21532287067936856,
+      0.5577109537655369
+     ],
+     "text": "10/27 (22% to 56%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 4,
+     "n": 27,
+     "rate": 0.14814814814814814,
+     "wilson95": [
+      0.059158318596448906,
+      0.32479063346829484
+     ],
+     "text": "4/27 (5.9% to 32%)",
+     "pending": 0
+    }
+   },
+   "all_bugs": {
+    "n": 42,
+    "both": 5,
+    "only_ml": 8,
+    "only_cr": 1,
+    "neither": 28,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.0390625,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 13,
+     "n": 42,
+     "rate": 0.30952380952380953,
+     "wilson95": [
+      0.1907092651972273,
+      0.46026277766340595
+     ],
+     "text": "13/42 (19% to 46%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 6,
+     "n": 42,
+     "rate": 0.14285714285714285,
+     "wilson95": [
+      0.06715875684189933,
+      0.2784138235217878
+     ],
+     "text": "6/42 (6.7% to 28%)",
+     "pending": 0
+    }
+   },
+   "real_review_prs": 42,
+   "completion": {
+    "k": 42,
+    "n": 42,
+    "rate": 1.0,
+    "wilson95": [
+     0.9161983874908382,
+     1.0
+    ],
+    "text": "42/42 (92% to 100%)"
+   }
+  },
+  "M2-r2": {
+   "catchable_bugs": {
+    "n": 27,
+    "both": 3,
+    "only_ml": 9,
+    "only_cr": 1,
+    "neither": 14,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.021484375,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 12,
+     "n": 27,
+     "rate": 0.4444444444444444,
+     "wilson95": [
+      0.2758559767007283,
+      0.6268728052042312
+     ],
+     "text": "12/27 (28% to 63%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 4,
+     "n": 27,
+     "rate": 0.14814814814814814,
+     "wilson95": [
+      0.059158318596448906,
+      0.32479063346829484
+     ],
+     "text": "4/27 (5.9% to 32%)",
+     "pending": 0
+    }
+   },
+   "all_bugs": {
+    "n": 42,
+    "both": 5,
+    "only_ml": 11,
+    "only_cr": 1,
+    "neither": 25,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.00634765625,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 16,
+     "n": 42,
+     "rate": 0.38095238095238093,
+     "wilson95": [
+      0.24999520898785943,
+      0.5318623178000363
+     ],
+     "text": "16/42 (25% to 53%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 6,
+     "n": 42,
+     "rate": 0.14285714285714285,
+     "wilson95": [
+      0.06715875684189933,
+      0.2784138235217878
+     ],
+     "text": "6/42 (6.7% to 28%)",
+     "pending": 0
+    }
+   },
+   "real_review_prs": 42,
+   "completion": {
+    "k": 41,
+    "n": 42,
+    "rate": 0.9761904761904762,
+    "wilson95": [
+     0.8767851883475174,
+     0.9957847045008997
+    ],
+    "text": "41/42 (88% to 100%)"
+   }
+  },
+  "M2-union": {
+   "catchable_bugs": {
+    "n": 27,
+    "both": 3,
+    "only_ml": 9,
+    "only_cr": 1,
+    "neither": 14,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.021484375,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 12,
+     "n": 27,
+     "rate": 0.4444444444444444,
+     "wilson95": [
+      0.2758559767007283,
+      0.6268728052042312
+     ],
+     "text": "12/27 (28% to 63%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 4,
+     "n": 27,
+     "rate": 0.14814814814814814,
+     "wilson95": [
+      0.059158318596448906,
+      0.32479063346829484
+     ],
+     "text": "4/27 (5.9% to 32%)",
+     "pending": 0
+    }
+   },
+   "all_bugs": {
+    "n": 42,
+    "both": 5,
+    "only_ml": 11,
+    "only_cr": 1,
+    "neither": 25,
+    "pending": 0,
+    "mcnemar_exact_two_sided_p": 0.00634765625,
+    "conclusion": "MegaLens better",
+    "ml": {
+     "k": 16,
+     "n": 42,
+     "rate": 0.38095238095238093,
+     "wilson95": [
+      0.24999520898785943,
+      0.5318623178000363
+     ],
+     "text": "16/42 (25% to 53%)",
+     "pending": 0
+    },
+    "cr": {
+     "k": 6,
+     "n": 42,
+     "rate": 0.14285714285714285,
+     "wilson95": [
+      0.06715875684189933,
+      0.2784138235217878
+     ],
+     "text": "6/42 (6.7% to 28%)",
+     "pending": 0
+    }
+   },
+   "real_review_prs": 42,
+   "completion": {
+    "k": 42,
+    "n": 42,
+    "rate": 1.0,
+    "wilson95": [
+     0.9161983874908382,
+     1.0
+    ],
+    "text": "42/42 (92% to 100%)"
+   }
+  }
+ },
+ "precision": {
+  "status": "complete",
+  "groups": {
+   "CR": {
+    "status": "complete",
+    "posted": 159,
+    "real": 18,
+    "confirmed_real": 18,
+    "contested": 30,
+    "confirmed_contested": 30,
+    "both_unsure": 2,
+    "not_real": 109,
+    "pending": 0,
+    "contested_as_not_real": {
+     "k": 18,
+     "n": 159,
+     "rate": 0.11320754716981132,
+     "wilson95": [
+      0.07281871150368788,
+      0.1718460424658138
+     ],
+     "text": "18/159 (7.3% to 17%)"
+    },
+    "contested_as_real": {
+     "k": 48,
+     "n": 159,
+     "rate": 0.3018867924528302,
+     "wilson95": [
+      0.23589451878319362,
+      0.3772264527621609
+     ],
+     "text": "48/159 (24% to 38%)"
+    }
+   },
+   "MegaLens": {
+    "status": "complete",
+    "posted": 627,
+    "real": 201,
+    "confirmed_real": 201,
+    "contested": 263,
+    "confirmed_contested": 263,
+    "both_unsure": 33,
+    "not_real": 130,
+    "pending": 0,
+    "contested_as_not_real": {
+     "k": 201,
+     "n": 627,
+     "rate": 0.32057416267942584,
+     "wilson95": [
+      0.28523114846038533,
+      0.3581024554110144
+     ],
+     "text": "201/627 (29% to 36%)"
+    },
+    "contested_as_real": {
+     "k": 464,
+     "n": 627,
+     "rate": 0.7400318979266348,
+     "wilson95": [
+      0.7043110210097374,
+      0.7728293578111902
+     ],
+     "text": "464/627 (70% to 77%)"
+    }
+   },
+   "M1-r1": {
+    "status": "complete",
+    "posted": 226,
+    "real": 75,
+    "confirmed_real": 75,
+    "contested": 88,
+    "confirmed_contested": 88,
+    "both_unsure": 18,
+    "not_real": 45,
+    "pending": 0,
+    "contested_as_not_real": {
+     "k": 75,
+     "n": 226,
+     "rate": 0.33185840707964603,
+     "wilson95": [
+      0.2737270270048766,
+      0.39561046455452775
+     ],
+     "text": "75/226 (27% to 40%)"
+    },
+    "contested_as_real": {
+     "k": 163,
+     "n": 226,
+     "rate": 0.7212389380530974,
+     "wilson95": [
+      0.6594540920452833,
+      0.7756281559028689
+     ],
+     "text": "163/226 (66% to 78%)"
+    }
+   },
+   "M2-r1": {
+    "status": "complete",
+    "posted": 220,
+    "real": 67,
+    "confirmed_real": 67,
+    "contested": 93,
+    "confirmed_contested": 93,
+    "both_unsure": 7,
+    "not_real": 53,
+    "pending": 0,
+    "contested_as_not_real": {
+     "k": 67,
+     "n": 220,
+     "rate": 0.30454545454545456,
+     "wilson95": [
+      0.24751651351531426,
+      0.36828323058944556
+     ],
+     "text": "67/220 (25% to 37%)"
+    },
+    "contested_as_real": {
+     "k": 160,
+     "n": 220,
+     "rate": 0.7272727272727273,
+     "wilson95": [
+      0.6648976846294733,
+      0.7818467989696433
+     ],
+     "text": "160/220 (66% to 78%)"
+    }
+   },
+   "M2-r2": {
+    "status": "complete",
+    "posted": 181,
+    "real": 59,
+    "confirmed_real": 59,
+    "contested": 82,
+    "confirmed_contested": 82,
+    "both_unsure": 8,
+    "not_real": 32,
+    "pending": 0,
+    "contested_as_not_real": {
+     "k": 59,
+     "n": 181,
+     "rate": 0.3259668508287293,
+     "wilson95": [
+      0.26191247430256764,
+      0.3972551589574776
+     ],
+     "text": "59/181 (26% to 40%)"
+    },
+    "contested_as_real": {
+     "k": 141,
+     "n": 181,
+     "rate": 0.7790055248618785,
+     "wilson95": [
+      0.7131105162726699,
+      0.8333032780247178
+     ],
+     "text": "141/181 (71% to 83%)"
+    }
+   }
+  },
+  "coderabbit_on_M": {
+   "M1-r1": {
+    "status": "complete",
+    "posted": 152,
+    "real": 17,
+    "confirmed_real": 17,
+    "contested": 25,
+    "confirmed_contested": 25,
+    "both_unsure": 2,
+    "not_real": 108,
+    "pending": 0,
+    "contested_as_not_real": {
+     "k": 17,
+     "n": 152,
+     "rate": 0.1118421052631579,
+     "wilson95": [
+      0.07101016485696363,
+      0.17181075073938548
+     ],
+     "text": "17/152 (7.1% to 17%)"
+    },
+    "contested_as_real": {
+     "k": 42,
+     "n": 152,
+     "rate": 0.27631578947368424,
+     "wilson95": [
+      0.21140472817032446,
+      0.3522547825123175
+     ],
+     "text": "42/152 (21% to 35%)"
+    }
+   },
+   "M2-r1": {
+    "status": "complete",
+    "posted": 159,
+    "real": 18,
+    "confirmed_real": 18,
+    "contested": 30,
+    "confirmed_contested": 30,
+    "both_unsure": 2,
+    "not_real": 109,
+    "pending": 0,
+    "contested_as_not_real": {
+     "k": 18,
+     "n": 159,
+     "rate": 0.11320754716981132,
+     "wilson95": [
+      0.07281871150368788,
+      0.1718460424658138
+     ],
+     "text": "18/159 (7.3% to 17%)"
+    },
+    "contested_as_real": {
+     "k": 48,
+     "n": 159,
+     "rate": 0.3018867924528302,
+     "wilson95": [
+      0.23589451878319362,
+      0.3772264527621609
+     ],
+     "text": "48/159 (24% to 38%)"
+    }
+   },
+   "M2-r2": {
+    "status": "complete",
+    "posted": 156,
+    "real": 18,
+    "confirmed_real": 18,
+    "contested": 28,
+    "confirmed_contested": 28,
+    "both_unsure": 2,
+    "not_real": 108,
+    "pending": 0,
+    "contested_as_not_real": {
+     "k": 18,
+     "n": 156,
+     "rate": 0.11538461538461539,
+     "wilson95": [
+      0.07424385374812917,
+      0.1750129104484254
+     ],
+     "text": "18/156 (7.4% to 18%)"
+    },
+    "contested_as_real": {
+     "k": 46,
+     "n": 156,
+     "rate": 0.2948717948717949,
+     "wilson95": [
+      0.22893947619211982,
+      0.3706641313793759
+     ],
+     "text": "46/156 (23% to 37%)"
+    }
+   }
+  },
+  "matched_prs": {
+   "M1-r1": 40,
+   "M2-r1": 42,
+   "M2-r2": 41
+  },
+  "scope": "CR pooled once on union of included M sets; also reported on each run M. MegaLens aggregate counts postings across included runs; runs are also separate.",
+  "rule": "Descriptive precision; no significance claim. Both unsure remains separate."
+ },
+ "per_item": {
+  "af9fe9714d5aa7e7": {
+   "M1-r1": {
+    "exact": false,
+    "completed": false,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 5
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "a0dbec8e22f67401": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "b7c2dca5fd51bc33": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": true,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "70e2c7b7fa3a8517": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": false,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 5
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "9e93c6d1a9187d3f": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "24c82eabc0dfdef3": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "d91e78c6ae855933": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "e84e7dfda869ed24": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "77c8eaf99f157c7b": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "6175a7631710011b": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "4a18f4f753709c7f": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "d2f5067a17f50075": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "a5b7f15cbaf57eac": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "47db7db5846cdc81": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "c3e043eb958d250a": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "deba6f6d9d084179": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "d70fafc482563bcf": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": true,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": true,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "609eaf7a1ffbac44": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "30fd356e167ee9cb": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "57addeb462183245": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "c83ac58cece56e18": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "ddba4552258465cf": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "93fe60dabe2daad5": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "1bb4cb30913dbcfd": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "1992a438d0c072c8": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "96e7c1f8fcef4cee": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "e17dbc0c24b29709": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "f1b4da1c93fe0e19": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "94f2facbc3e9f4fd": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": true,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "bdb7bb10acae4875": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": true,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "81d41dcd3933ba14": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "6570b8a58e99ac33": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "604d1c2a48875e9e": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "d5e49359da9fc387": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "c73cfab741b781a6": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "243a87abb3c7b0f8": {
+   "M1-r1": {
+    "exact": false,
+    "completed": false,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 5
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "17bed71268a94c2e": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": true,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "4c344db01d8fb7a4": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "6ed85e4cd6a22a53": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": true,
+    "attempts": null
+   }
+  },
+  "74ba5af2b059a471": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "411905e1fbb0291a": {
+   "M1-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  },
+  "5600566f680f1bc2": {
+   "M1-r1": {
+    "exact": true,
+    "completed": true,
+    "caught_reviewer_a": "hit",
+    "caught_reviewer_b": "hit",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r1": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "M2-r2": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "partial",
+    "caught_reviewer_b": "partial",
+    "reviewer_split": false,
+    "attempts": 1
+   },
+   "CR": {
+    "exact": false,
+    "completed": true,
+    "caught_reviewer_a": "miss",
+    "caught_reviewer_b": "miss",
+    "reviewer_split": false,
+    "attempts": null
+   }
+  }
+ },
+ "item_labels": {
+  "af9fe9714d5aa7e7": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "a0dbec8e22f67401": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "b7c2dca5fd51bc33": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "70e2c7b7fa3a8517": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "9e93c6d1a9187d3f": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "24c82eabc0dfdef3": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "d91e78c6ae855933": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "e84e7dfda869ed24": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "77c8eaf99f157c7b": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "6175a7631710011b": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "4a18f4f753709c7f": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "d2f5067a17f50075": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "a5b7f15cbaf57eac": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "47db7db5846cdc81": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "c3e043eb958d250a": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "deba6f6d9d084179": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "d70fafc482563bcf": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "609eaf7a1ffbac44": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "30fd356e167ee9cb": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "57addeb462183245": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "c83ac58cece56e18": {
+   "catchable": "yes",
+   "tag": "needs-documented-external"
+  },
+  "ddba4552258465cf": {
+   "catchable": "yes",
+   "tag": "needs-documented-external"
+  },
+  "93fe60dabe2daad5": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "1bb4cb30913dbcfd": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "1992a438d0c072c8": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "96e7c1f8fcef4cee": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "e17dbc0c24b29709": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "f1b4da1c93fe0e19": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "94f2facbc3e9f4fd": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "bdb7bb10acae4875": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "81d41dcd3933ba14": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "6570b8a58e99ac33": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "604d1c2a48875e9e": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "d5e49359da9fc387": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "c73cfab741b781a6": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "243a87abb3c7b0f8": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "17bed71268a94c2e": {
+   "catchable": "no",
+   "tag": "n/a"
+  },
+  "4c344db01d8fb7a4": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "6ed85e4cd6a22a53": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "74ba5af2b059a471": {
+   "catchable": "yes",
+   "tag": "needs-documented-external"
+  },
+  "411905e1fbb0291a": {
+   "catchable": "yes",
+   "tag": "repo-only"
+  },
+  "5600566f680f1bc2": {
+   "catchable": "no",
+   "tag": "n/a"
+  }
+ },
+ "hits": {
+  "M1-r1": {
+   "af9fe9714d5aa7e7": false,
+   "a0dbec8e22f67401": true,
+   "b7c2dca5fd51bc33": false,
+   "70e2c7b7fa3a8517": false,
+   "9e93c6d1a9187d3f": true,
+   "24c82eabc0dfdef3": true,
+   "d91e78c6ae855933": false,
+   "e84e7dfda869ed24": false,
+   "77c8eaf99f157c7b": false,
+   "6175a7631710011b": true,
+   "4a18f4f753709c7f": true,
+   "d2f5067a17f50075": true,
+   "a5b7f15cbaf57eac": false,
+   "47db7db5846cdc81": false,
+   "c3e043eb958d250a": false,
+   "deba6f6d9d084179": false,
+   "d70fafc482563bcf": false,
+   "609eaf7a1ffbac44": false,
+   "30fd356e167ee9cb": true,
+   "57addeb462183245": false,
+   "c83ac58cece56e18": false,
+   "ddba4552258465cf": true,
+   "93fe60dabe2daad5": false,
+   "1bb4cb30913dbcfd": false,
+   "1992a438d0c072c8": false,
+   "96e7c1f8fcef4cee": true,
+   "e17dbc0c24b29709": true,
+   "f1b4da1c93fe0e19": false,
+   "94f2facbc3e9f4fd": true,
+   "bdb7bb10acae4875": true,
+   "81d41dcd3933ba14": true,
+   "6570b8a58e99ac33": true,
+   "604d1c2a48875e9e": true,
+   "d5e49359da9fc387": false,
+   "c73cfab741b781a6": true,
+   "243a87abb3c7b0f8": false,
+   "17bed71268a94c2e": false,
+   "4c344db01d8fb7a4": false,
+   "6ed85e4cd6a22a53": false,
+   "74ba5af2b059a471": false,
+   "411905e1fbb0291a": false,
+   "5600566f680f1bc2": true
+  },
+  "M2-r1": {
+   "af9fe9714d5aa7e7": false,
+   "a0dbec8e22f67401": true,
+   "b7c2dca5fd51bc33": false,
+   "70e2c7b7fa3a8517": false,
+   "9e93c6d1a9187d3f": false,
+   "24c82eabc0dfdef3": true,
+   "d91e78c6ae855933": false,
+   "e84e7dfda869ed24": false,
+   "77c8eaf99f157c7b": true,
+   "6175a7631710011b": true,
+   "4a18f4f753709c7f": true,
+   "d2f5067a17f50075": false,
+   "a5b7f15cbaf57eac": false,
+   "47db7db5846cdc81": false,
+   "c3e043eb958d250a": false,
+   "deba6f6d9d084179": false,
+   "d70fafc482563bcf": false,
+   "609eaf7a1ffbac44": false,
+   "30fd356e167ee9cb": true,
+   "57addeb462183245": false,
+   "c83ac58cece56e18": false,
+   "ddba4552258465cf": false,
+   "93fe60dabe2daad5": true,
+   "1bb4cb30913dbcfd": false,
+   "1992a438d0c072c8": false,
+   "96e7c1f8fcef4cee": true,
+   "e17dbc0c24b29709": true,
+   "f1b4da1c93fe0e19": false,
+   "94f2facbc3e9f4fd": false,
+   "bdb7bb10acae4875": false,
+   "81d41dcd3933ba14": true,
+   "6570b8a58e99ac33": true,
+   "604d1c2a48875e9e": true,
+   "d5e49359da9fc387": false,
+   "c73cfab741b781a6": true,
+   "243a87abb3c7b0f8": false,
+   "17bed71268a94c2e": false,
+   "4c344db01d8fb7a4": false,
+   "6ed85e4cd6a22a53": false,
+   "74ba5af2b059a471": false,
+   "411905e1fbb0291a": false,
+   "5600566f680f1bc2": false
+  },
+  "M2-r2": {
+   "af9fe9714d5aa7e7": false,
+   "a0dbec8e22f67401": true,
+   "b7c2dca5fd51bc33": false,
+   "70e2c7b7fa3a8517": false,
+   "9e93c6d1a9187d3f": false,
+   "24c82eabc0dfdef3": true,
+   "d91e78c6ae855933": false,
+   "e84e7dfda869ed24": false,
+   "77c8eaf99f157c7b": true,
+   "6175a7631710011b": true,
+   "4a18f4f753709c7f": true,
+   "d2f5067a17f50075": false,
+   "a5b7f15cbaf57eac": false,
+   "47db7db5846cdc81": false,
+   "c3e043eb958d250a": true,
+   "deba6f6d9d084179": true,
+   "d70fafc482563bcf": false,
+   "609eaf7a1ffbac44": false,
+   "30fd356e167ee9cb": true,
+   "57addeb462183245": false,
+   "c83ac58cece56e18": true,
+   "ddba4552258465cf": false,
+   "93fe60dabe2daad5": true,
+   "1bb4cb30913dbcfd": false,
+   "1992a438d0c072c8": false,
+   "96e7c1f8fcef4cee": true,
+   "e17dbc0c24b29709": true,
+   "f1b4da1c93fe0e19": false,
+   "94f2facbc3e9f4fd": false,
+   "bdb7bb10acae4875": false,
+   "81d41dcd3933ba14": true,
+   "6570b8a58e99ac33": true,
+   "604d1c2a48875e9e": true,
+   "d5e49359da9fc387": false,
+   "c73cfab741b781a6": true,
+   "243a87abb3c7b0f8": false,
+   "17bed71268a94c2e": false,
+   "4c344db01d8fb7a4": false,
+   "6ed85e4cd6a22a53": false,
+   "74ba5af2b059a471": false,
+   "411905e1fbb0291a": false,
+   "5600566f680f1bc2": false
+  },
+  "CR": {
+   "af9fe9714d5aa7e7": false,
+   "a0dbec8e22f67401": false,
+   "b7c2dca5fd51bc33": false,
+   "70e2c7b7fa3a8517": false,
+   "9e93c6d1a9187d3f": false,
+   "24c82eabc0dfdef3": true,
+   "d91e78c6ae855933": false,
+   "e84e7dfda869ed24": false,
+   "77c8eaf99f157c7b": false,
+   "6175a7631710011b": true,
+   "4a18f4f753709c7f": true,
+   "d2f5067a17f50075": false,
+   "a5b7f15cbaf57eac": false,
+   "47db7db5846cdc81": false,
+   "c3e043eb958d250a": false,
+   "deba6f6d9d084179": false,
+   "d70fafc482563bcf": false,
+   "609eaf7a1ffbac44": false,
+   "30fd356e167ee9cb": true,
+   "57addeb462183245": false,
+   "c83ac58cece56e18": false,
+   "ddba4552258465cf": false,
+   "93fe60dabe2daad5": true,
+   "1bb4cb30913dbcfd": false,
+   "1992a438d0c072c8": false,
+   "96e7c1f8fcef4cee": false,
+   "e17dbc0c24b29709": false,
+   "f1b4da1c93fe0e19": false,
+   "94f2facbc3e9f4fd": false,
+   "bdb7bb10acae4875": false,
+   "81d41dcd3933ba14": false,
+   "6570b8a58e99ac33": false,
+   "604d1c2a48875e9e": false,
+   "d5e49359da9fc387": false,
+   "c73cfab741b781a6": false,
+   "243a87abb3c7b0f8": false,
+   "17bed71268a94c2e": false,
+   "4c344db01d8fb7a4": false,
+   "6ed85e4cd6a22a53": false,
+   "74ba5af2b059a471": false,
+   "411905e1fbb0291a": true,
+   "5600566f680f1bc2": false
+  },
+  "M2-union": {
+   "af9fe9714d5aa7e7": false,
+   "a0dbec8e22f67401": true,
+   "b7c2dca5fd51bc33": false,
+   "70e2c7b7fa3a8517": false,
+   "9e93c6d1a9187d3f": false,
+   "24c82eabc0dfdef3": true,
+   "d91e78c6ae855933": false,
+   "e84e7dfda869ed24": false,
+   "77c8eaf99f157c7b": true,
+   "6175a7631710011b": true,
+   "4a18f4f753709c7f": true,
+   "d2f5067a17f50075": false,
+   "a5b7f15cbaf57eac": false,
+   "47db7db5846cdc81": false,
+   "c3e043eb958d250a": true,
+   "deba6f6d9d084179": true,
+   "d70fafc482563bcf": false,
+   "609eaf7a1ffbac44": false,
+   "30fd356e167ee9cb": true,
+   "57addeb462183245": false,
+   "c83ac58cece56e18": true,
+   "ddba4552258465cf": false,
+   "93fe60dabe2daad5": true,
+   "1bb4cb30913dbcfd": false,
+   "1992a438d0c072c8": false,
+   "96e7c1f8fcef4cee": true,
+   "e17dbc0c24b29709": true,
+   "f1b4da1c93fe0e19": false,
+   "94f2facbc3e9f4fd": false,
+   "bdb7bb10acae4875": false,
+   "81d41dcd3933ba14": true,
+   "6570b8a58e99ac33": true,
+   "604d1c2a48875e9e": true,
+   "d5e49359da9fc387": false,
+   "c73cfab741b781a6": true,
+   "243a87abb3c7b0f8": false,
+   "17bed71268a94c2e": false,
+   "4c344db01d8fb7a4": false,
+   "6ed85e4cd6a22a53": false,
+   "74ba5af2b059a471": false,
+   "411905e1fbb0291a": false,
+   "5600566f680f1bc2": false
+  }
+ },
+ "source_hashes": {
+  "labels": "bb8a6ded86ef2572ee33c23b2eafb2005101e50ba467f982a548ce8dfb578d76",
+  "manifest": "faf5a506a4cb87b998dfadb7099fd15408d70633b302f25015b88c8dd9acd654",
+  "frozen": {
+   "labels_final": "bb8a6ded86ef2572ee33c23b2eafb2005101e50ba467f982a548ce8dfb578d76",
+   "adjudication": "fee13b0aeb479a223005a7cde7b75e3594ee71cd2f4d12a93b42904e677bc86b",
+   "truth_audit": "49312f2a7e30a17964342245453df1566ebed0f6ac94a18ecfaf3483ea8b3773",
+   "truth_dir_concat_sorted": "d1afb899c737966e2009792ca6e02a64fb020e9f2c0330cf4d7f6ae1680c3819",
+   "rules": "5da513ff8a54085896e35e82181e466f7e8b5b3d2d68901914d112dfdaa66920",
+   "manifest": "faf5a506a4cb87b998dfadb7099fd15408d70633b302f25015b88c8dd9acd654",
+   "counts": {
+    "items": 43,
+    "catchable_yes": 27,
+    "invalid": 1
+   }
+  }
+ },
+ "rules": {
+  "catch": "Both reviewers hit; incomplete or missing finals are misses.",
+  "population": "Items labelled invalid are excluded everywhere (runs, CR, precision, denominators).",
+  "union": "Logical OR of the two independently reviewed plugin-route (M2) run catches. M1 has one run.",
+  "verified": "All extracted final-record verified findings, one audit per finding.",
+  "contested": "Different audit labels; both unsure reported separately. Bounds use W/V and (W+contested)/V.",
+  "paired": "A6 exact two-sided McNemar; no significance claim unless p < 0.05.",
+  "matched": "A8 M: valid real_review PRs with a completed final; unions need at least one completed run. Primary E: frozen catchable yes bugs on M; secondary: all valid bugs on M.",
+  "sensitivity": "All valid real_review PRs; MegaLens non-completion is a miss.",
+  "attempts": "A9: quota admission refusals are separate harness failures; counted retries exclude them.",
+  "pending": "Absent reviewer output is an error unless --allow-pending; unknown rates have no interval.",
+  "interval": "95% Wilson, z=1.96. Empty denominator has no interval.",
+  "identity": "Per-item results use keyed HMAC-SHA256 IDs (first 16 hex). No repo names, PR numbers or comment text."
+ }
+}
