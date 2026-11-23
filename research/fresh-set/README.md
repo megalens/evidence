@@ -3,7 +3,7 @@
 A second sealed benchmark set: pull requests merged after the earlier set, so that models are unlikely to have seen the later fixes in their training data. Its labels were frozen, and these hashes published, before any MegaLens run on the set and before any CodeRabbit review on it was opened.
 
 ## How the set was built
-1. **Sources:** public repositories with an OSI licence, reached only through GitHub's public API. We hold no account, trial or subscription with any code review vendor.
+1. **Sources:** public repositories with an OSI licence, reached only through GitHub's public API. We never ran CodeRabbit ourselves. We used its own saved reviews on public pull requests.
 2. **Each pull request:**
    - was merged between 5 Aug and 29 Oct 2026;
    - received a pre-merge CodeRabbit review with inline comments, checked from the comment author and comment type only. No review text was read;
